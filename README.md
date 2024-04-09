@@ -1,0 +1,1 @@
+This is a repository containing the work undertaken to complete the Physics MSci Project: Harnessing Machine Learning to Determine the True Nature of the Higgs Boson using Data from the Large Hadron Collider at CERN
