@@ -1,0 +1,137 @@
+tagger_defaults:
+  f_b: 0.05
+  f_c: 0.1
+  #sample_path: /home/xzcaplas/PHAS0097_RLASSEN/salt/salt/Datasets_with_track_Variables/pp_output_test_zprime-split_0_with_track_variables.h5
+  #sample_path: /home/xzcappon/phd/datasets/combined_run2_run3/p5922/high_stats/fold3/output/test_split_ttbar/pp_output_test_ttbar-split_0.h5
+  sample_path: /home/xzcappon/phd/datasets/combined_run2_run3/p5922/high_stats/fold3/output/pp_output_test_ttbar.h5
+  #sample_path: /home/xzcappon/phd/datasets/combined_run2_run3/p5770/lowstats_30m/output/pp_output_test_zprime.h5
+  cuts: 
+    - "n_truth_promptLepton == 0"
+
+
+taggers:
+  GN2:
+    #name: gn2v01_retrained_with_split_train_val_b2000_e40
+    #name: GN2v01_30m0_b2000_e40
+    name: gn2v01_phase2_without_hits_b2000_e40
+    sample_path: /home/xzcaplas/PHAS0097_RLASSEN/salt/submit/output/supervising/base/gn2v01_phase2_without_hits_b2000_e40_20240207-T121630/ckpts/epoch=025-val_loss=0.54534__test_ttbar.h5
+    #sample_path: /home/xzcaplas/PHAS0097_RLASSEN/salt/submit/output/supervising/base/gn2v01_retrained_with_split_train_val_b2000_e40_20231124-T120742/ckpts/epoch=028-val_loss=0.59344__test_ttbar.h5
+    #sample_path: /home/xzcaplas/PHAS0097_RLASSEN/salt/submit/output/supervising/base/gn2v01_baseline_2k_2_b2000_e40_20231116-T131822/ckpts/epoch=022-val_loss=0.59781__test_ttbar.h5
+    #sample_path: /home/xzcappon/phd/tools/salt/salt/salt/logs/supervising/2023_2024/base/GN2v01_30m0_b2000_e40_20231126-T200748/ckpts/epoch=024-val_loss=0.59302__test_ttbar__.h5
+    #cuts:
+    #  - "pt > 20000"
+    #  - "pt < 250000"
+    label: GN2
+
+  GN1: 
+    name: GN120220509
+    #cuts:
+    #  - "pt > 150000"
+    #  - "pt < 250000"
+    label: GN1
+  
+  DL1d:
+    name: DL1dv01
+    #cuts:
+    #  - "pt > 250000"
+    #  - "pt < 750000"
+    label: DL1d
+  
+
+  GN2 $f_c$ = 1.00:
+    name: gn2v01_phase2_without_hits_b2000_e40
+    sample_path: /home/xzcaplas/PHAS0097_RLASSEN/salt/submit/output/supervising/base/gn2v01_phase2_without_hits_b2000_e40_20240207-T121630/ckpts/epoch=025-val_loss=0.54534__test_ttbar.h5
+    f_c: 1.00
+    label: GN2 $f_c$ = 1.00
+
+  GN2 $f_c$ = 0.75:
+    name: gn2v01_phase2_without_hits_b2000_e40
+    sample_path: /home/xzcaplas/PHAS0097_RLASSEN/salt/submit/output/supervising/base/gn2v01_phase2_without_hits_b2000_e40_20240207-T121630/ckpts/epoch=025-val_loss=0.54534__test_ttbar.h5
+    f_c: 0.75
+    label: GN2 $f_c$ = 0.75
+
+  GN2 $f_c$ = 0.50:
+    name: gn2v01_phase2_without_hits_b2000_e40
+    sample_path: /home/xzcaplas/PHAS0097_RLASSEN/salt/submit/output/supervising/base/gn2v01_phase2_without_hits_b2000_e40_20240207-T121630/ckpts/epoch=025-val_loss=0.54534__test_ttbar.h5
+    f_c: 0.50
+    label: GN2 $f_c$ = 0.50
+
+  GN2 $f_c$ = 0.25:
+    name: gn2v01_phase2_without_hits_b2000_e40
+    sample_path: /home/xzcaplas/PHAS0097_RLASSEN/salt/submit/output/supervising/base/gn2v01_phase2_without_hits_b2000_e40_20240207-T121630/ckpts/epoch=025-val_loss=0.54534__test_ttbar.h5
+    f_c: 0.25
+    label: GN2 $f_c$ = 0.25
+  
+  GN2 $f_c$ = 0.05:
+    name: gn2v01_phase2_without_hits_b2000_e40
+    sample_path: /home/xzcaplas/PHAS0097_RLASSEN/salt/submit/output/supervising/base/gn2v01_phase2_without_hits_b2000_e40_20240207-T121630/ckpts/epoch=025-val_loss=0.54534__test_ttbar.h5
+    f_c: 0.05
+    label: GN2 $f_c$ = 0.05
+  
+  GN2 $f_c$ = 0.00:
+    name: gn2v01_phase2_without_hits_b2000_e40
+    sample_path: /home/xzcaplas/PHAS0097_RLASSEN/salt/submit/output/supervising/base/gn2v01_phase2_without_hits_b2000_e40_20240207-T121630/ckpts/epoch=025-val_loss=0.54534__test_ttbar.h5
+    f_c: 0.00
+    label: GN2 $f_c$ = 0.00
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  # Uses default sample path, and default f_c
+  #Model_f_c_000:
+  #  name: gn2v01_retrained_with_split_train_val_b2000_e40
+  #  f_c: 0.0
+  #  sample_path: /home/xzcaplas/PHAS0097_RLASSEN/salt/submit/output/supervising/base/gn2v01_retrained_with_split_train_val_b2000_e40_20231124-T120742/ckpts/epoch=028-val_loss=0.59344__test_ttbar.h5
+  #  label: Model_f_c_000
+  
+  # Uses default sample path, and default f_c
+  #Model_f_c_025:
+  #  name: gn2v01_retrained_with_split_train_val_b2000_e40
+  #  f_c: 0.25
+  #  sample_path: /home/xzcaplas/PHAS0097_RLASSEN/salt/submit/output/supervising/base/gn2v01_retrained_with_split_train_val_b2000_e40_20231124-T120742/ckpts/epoch=028-val_loss=0.59344__test_ttbar.h5
+  #  label: Model_f_c_025
+  
+  # Uses default sample path, and default f_c
+  #Model_f_c_050:
+  #  name: gn2v01_retrained_with_split_train_val_b2000_e40
+  #  f_c: 0.50
+  #  sample_path: /home/xzcaplas/PHAS0097_RLASSEN/salt/submit/output/supervising/base/gn2v01_retrained_with_split_train_val_b2000_e40_20231124-T120742/ckpts/epoch=028-val_loss=0.59344__test_ttbar.h5
+  #  label: Model_f_c_050
+  
+  # Uses default sample path, and default f_c
+  #Model_f_c_075:
+  #  name: gn2v01_retrained_with_split_train_val_b2000_e40
+  #  f_c: 0.75
+  #  sample_path: /home/xzcaplas/PHAS0097_RLASSEN/salt/submit/output/supervising/base/gn2v01_retrained_with_split_train_val_b2000_e40_20231124-T120742/ckpts/epoch=028-val_loss=0.59344__test_ttbar.h5
+  #  label: Model_f_c_075
+
+  # Uses default sample path, and default f_c
+  #Model_f_c_100:
+  #  name: gn2v01_retrained_with_split_train_val_b2000_e40
+  #  f_c: 1.0
+  #  sample_path: /home/xzcaplas/PHAS0097_RLASSEN/salt/submit/output/supervising/base/gn2v01_retrained_with_split_train_val_b2000_e40_20231124-T120742/ckpts/epoch=028-val_loss=0.59344__test_ttbar.h5
+  #  label: Model_f_c_100
+#taggers:
+#  # Uses default sample path, and default f_c
+#  GN120220509: 
+#    name: GN120220509
+#    label: GN120220509
+#  # Uses default sample path, and updated f_c
+#  GN1Lep20220509:
+#    name: GN1Lep20220509
+#    label: GN1Lep20220509
+#    #f_c: 0.2
+#    #label: Dummy $f_c$ = 0.2
+#  # Uses updated sample path, and default f_c
+#  FirstModel_RL:
+#    #name: gn2v01_first_model_b2000_e40_20231114-T103729
+#    name: gn2v01_baseline_2k_2_b2000_e40
+#    sample_path: /home/xzcaplas/PHAS0097_RLASSEN/salt/submit/output/supervising/base/gn2v01_baseline_2k_2_b2000_e40_20231116-T131822/ckpts/epoch=022-val_loss=0.59781__test_ttbar.h5
+#    label: FirstModel_RL
+
+      

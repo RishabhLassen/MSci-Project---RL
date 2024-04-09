@@ -1,0 +1,159 @@
+#plot_dir: /home/xzcaplas/Outputted_plotting/DissPlots/Retraining_GN2/low_zprime_GN12_testing_something_1
+#plot_dir: /home/xzcaplas/Outputted_plotting/DissPlots/investigating_GN2/fc
+plot_dir: /home/xzcaplas/Outputted_plotting/DissPlots/investigating_GN2/jet_variables_testing_something_2
+timestamp: False
+results_default:
+  atlas_second_tag: $\sqrt{s} = 13.6$ TeV, MC23
+  
+taggers_config: taggers_progressrep_zprime.yaml
+taggers: 
+  #- GN2
+  #- GN1
+#reference_tagger: GN1
+  #- GN2 $f_c$ = 1.00
+  #- GN2 $f_c$ = 0.75
+  #- GN2 $f_c$ = 0.50
+  #- GN2 $f_c$ = 0.25
+  #- GN2 $f_c$ = 0.00
+#reference_tagger: GN2 $f_c$ = 0.00
+  #- GN2 $250 < p_T < 750$
+  #- GN2 $750 < p_T < 3000$
+  #- GN2 $3000 < p_T < 5000$
+#reference_tagger: GN2 $3000 < p_T < 5000$
+  - GN2 $250 < p_T < 750$
+  - GN2 $1500 < p_T < 3000$
+reference_tagger: GN2 $1500 < p_T < 3000$
+
+sample:
+  name: zprime
+  cuts:
+    - "pt > 250000"
+    - "pt < 5000000"
+    - "eta < 2.5"
+    - "eta > -2.5"
+  str: $Z'$ 250 < $p_T$ < 5000 GeV, $|\eta| < 2.5$
+
+roc_plots:
+  -  args:
+      signal: cjets
+      x_range: [0.5, 1.0]
+      plot_kwargs:
+        figsize: [8.5, 7.5]
+  -  args:
+      signal: bjets
+      x_range: [0.5, 1.0]
+      plot_kwargs:
+        figsize: [8.5, 7.5]
+
+
+
+fracscan_plots:
+  - args:
+      signal: bjets
+      frac_flav: c
+      efficiency: 0.70
+      backgrounds: [cjets, ujets]
+      plot_kwargs:
+        figsize: [8.5, 7.5]
+
+disc_plots:
+  - args:
+      signal: bjets
+      plot_kwargs:
+        wp_vlines: [20, 35, 50]
+
+prob_plots:
+  - args:
+      signal: bjets
+
+eff_vs_var_plots:
+###### Track Variables num_pile-up_tracks
+  - args:
+      signal: bjets
+      peff_var: num_pile-up_tracks
+      bins: [0,1,2,3,4,5,6,7,8,9,10]
+      plot_kwargs:
+        xlabel: $N_{\text{pileup-tracks}}$
+        flat_per_bin: False
+        working_point: 0.35
+###### Track Variables num_fake_tracks
+  - args:
+      signal: bjets
+      peff_var: num_fake_tracks
+      bins: [0,1,2,3,4]
+      plot_kwargs:
+        xlabel: $N_{\text{fake-tracks}}$
+        flat_per_bin: False
+        working_point: 0.35
+###### Track Variables num_primary_tracks
+  - args:
+      signal: bjets
+      peff_var: num_primary_tracks
+      bins: [0,1,2,3,4,5,6,7,8,9,10]
+      plot_kwargs:
+        xlabel: $N_{\text{primary-tracks}}$
+        flat_per_bin: False
+        working_point: 0.35
+###### Track Variables num_fromB_tracks
+  - args:
+      signal: bjets
+      peff_var: num_fromB_tracks
+      bins: [0,1,2,3,4,5,6,7,8,9]
+      plot_kwargs:
+        xlabel: $N_{\text{fromB-tracks}}$
+        flat_per_bin: False
+        working_point: 0.35
+###### Track Variables num_fromBC_tracks
+  - args:
+      signal: bjets
+      peff_var: num_fromBC_tracks
+      bins: [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16]
+      plot_kwargs:
+        xlabel: $N_{\text{fromBC-tracks}}$
+        flat_per_bin: False
+        working_point: 0.35
+###### Track Variables num_fromC_tracks
+  - args:
+      signal: bjets
+      peff_var: num_fromC_tracks
+      bins: [0,1,2,3,4,5,6,7,8,9,10]
+      plot_kwargs:
+        xlabel: $N_{\text{fromC-tracks}}$
+        flat_per_bin: False
+        working_point: 0.35
+###### Track Variables num_fromTau_tracks
+  - args:
+      signal: bjets
+      peff_var: num_fromTau_tracks
+      bins: [0,1,2,3,4,5,6]
+      plot_kwargs:
+        xlabel: $N_{\text{𝜏-tracks}}$
+        flat_per_bin: False
+        working_point: 0.35
+###### Track Variables num_otherSecondary_tracks
+  - args:
+      signal: bjets
+      peff_var: num_otherSecondary_tracks
+      bins: [0,1,2,3,4,5,6,7,8,9,10]
+      plot_kwargs:
+        xlabel: $N_{\text{otherSecondary-tracks}}$
+        flat_per_bin: False
+        working_point: 0.35
+###### Track Variables num_B_total_tracks
+  - args:
+      signal: bjets
+      peff_var: num_HF_tracks
+      bins: [0,1,2,3,4,5,6,7,8,9,10]
+      plot_kwargs:
+        xlabel: $N_{\text{from HF-tracks}}$
+        flat_per_bin: False
+        working_point: 0.35
+###### Track Variables HadronConeExclTruthLabelLxy
+  - args:
+      signal: bjets
+      peff_var: HadronConeExclTruthLabelLxy
+      bins: [0,20,40,60,80,100,120,140,160]
+      plot_kwargs:
+        xlabel: $L_{\text{xy}} \text{ of Main Hadron}$
+        flat_per_bin: False
+        working_point: 0.35

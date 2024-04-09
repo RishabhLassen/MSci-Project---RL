@@ -1,0 +1,189 @@
+tagger_defaults:
+  f_b: 0.05
+  f_c: 0.1
+  #sample_path: /home/xzcappon/phd/datasets/combined_run2_run3/p5922/high_stats/fold3/output/pp_output_test_zprime.h5
+  #sample_path: /home/xzcappon/phd/datasets/clusters/p5906/output/pp_output_test_zprime.h5
+  #sample_path: /home/xzcaplas/PHAS0097_RLASSEN/salt/salt/Datasets_with_track_Variables/pp_output_test_zprime_with_GN2_VS_GNCLUS_variables.h5
+  #sample_path: /home/xzcappon/phd/datasets/clusters/p5906/output/pp_output_test_zprime_had_info.h5
+  sample_path: /home/xzcaplas/PHAS0097_RLASSEN/salt/salt/Datasets_with_track_Variables/pp_output_test_zprime_with_GN2_VS_GNCLUS_variables_reconstructed_tracks.h5
+  cuts: 
+    - "n_truth_promptLepton == 0"
+    
+
+
+taggers:
+  GN2 (charged):
+    name: gn2v01_phase2_without_hits_b2000_e40
+    sample_path: /home/xzcaplas/PHAS0097_RLASSEN/salt/submit/output/supervising/base/gn2v01_phase2_without_hits_b2000_e40_20240207-T121630/ckpts/epoch=025-val_loss=0.54534__test_pp_output_test_zprime_had_info.h5
+    cuts: 
+      - "leadingHadron_abs_charge == 1"
+    label: GN2 (charged)
+  
+  GN2 (neutral):
+    name: gn2v01_phase2_without_hits_b2000_e40
+    sample_path: /home/xzcaplas/PHAS0097_RLASSEN/salt/submit/output/supervising/base/gn2v01_phase2_without_hits_b2000_e40_20240207-T121630/ckpts/epoch=025-val_loss=0.54534__test_pp_output_test_zprime_had_info.h5
+    cuts: 
+      - "leadingHadron_abs_charge == 0"
+    label: GN2 (neutral)
+  
+  GNCLUS (charged):
+    name: gn2v01_phase2_with_hits_nodropout_week3_b2000_e40
+    sample_path: /home/xzcaplas/PHAS0097_RLASSEN/salt/submit/output/supervising/base/gn2v01_phase2_with_hits_nodropout_week3_b2000_e40_20240208-T151532/ckpts/epoch=025-val_loss=0.53310__test_pp_output_test_zprime_had_info.h5
+    cuts: 
+      - "leadingHadron_abs_charge == 1"
+    label: GNCLUS (charged)
+  
+  GNCLUS (neutral):
+    name: gn2v01_phase2_with_hits_nodropout_week3_b2000_e40
+    sample_path: /home/xzcaplas/PHAS0097_RLASSEN/salt/submit/output/supervising/base/gn2v01_phase2_with_hits_nodropout_week3_b2000_e40_20240208-T151532/ckpts/epoch=025-val_loss=0.53310__test_pp_output_test_zprime_had_info.h5
+    cuts: 
+      - "leadingHadron_abs_charge == 0"
+    label: GNCLUS (neutral)
+##################################################################################################
+  GN2 0:
+    name: gn2v01_phase2_without_hits_b2000_e40
+    #sample_path: /home/xzcaplas/PHAS0097_RLASSEN/salt/submit/output/supervising/base/gn2v01_phase2_without_hits_b2000_e40_20240207-T121630/ckpts/epoch=025-val_loss=0.54534__test_pp_output_test_zprime_with_GN2_VS_GNCLUS_variables.h5
+    sample_path: /home/xzcaplas/PHAS0097_RLASSEN/salt/submit/output/supervising/base/gn2v01_phase2_without_hits_b2000_e40_20240207-T121630/ckpts/epoch=025-val_loss=0.54534__test_pp_output_test_zprime_with_GN2_VS_GNCLUS_variables_reconstructed_tracks.h5
+    cuts:
+      - "num_reconstructed_tracks == 0"
+    label: GN2 ($N_{\text{reconstructed tracks}}$=0)
+
+  
+  GNCLUS 0:
+    name: gn2v01_phase2_with_hits_nodropout_week3_b2000_e40
+    #sample_path: /home/xzcaplas/PHAS0097_RLASSEN/salt/submit/output/supervising/base/gn2v01_phase2_with_hits_nodropout_week3_b2000_e40_20240208-T151532/ckpts/epoch=025-val_loss=0.53310__test_zprime.h5
+    sample_path: /home/xzcaplas/PHAS0097_RLASSEN/salt/submit/output/supervising/base/gn2v01_phase2_with_hits_nodropout_week3_b2000_e40_20240208-T151532/ckpts/epoch=025-val_loss=0.53310__test_pp_output_test_zprime_with_GN2_VS_GNCLUS_variables_reconstructed_tracks.h5
+    cuts:
+      - "num_reconstructed_tracks == 0"
+    label: GNCLUS ($N_{\text{reconstructed tracks}}$=0)
+  
+  GN2 1:
+    name: gn2v01_phase2_without_hits_b2000_e40
+    #sample_path: /home/xzcaplas/PHAS0097_RLASSEN/salt/submit/output/supervising/base/gn2v01_phase2_without_hits_b2000_e40_20240207-T121630/ckpts/epoch=025-val_loss=0.54534__test_pp_output_test_zprime_with_GN2_VS_GNCLUS_variables.h5
+    sample_path: /home/xzcaplas/PHAS0097_RLASSEN/salt/submit/output/supervising/base/gn2v01_phase2_without_hits_b2000_e40_20240207-T121630/ckpts/epoch=025-val_loss=0.54534__test_pp_output_test_zprime_with_GN2_VS_GNCLUS_variables_reconstructed_tracks.h5
+    cuts:
+      - "num_reconstructed_tracks == 1"
+    label: GN2 ($N_{\text{reconstructed tracks}}$=1)
+
+  
+  GNCLUS 1:
+    name: gn2v01_phase2_with_hits_nodropout_week3_b2000_e40
+    #sample_path: /home/xzcaplas/PHAS0097_RLASSEN/salt/submit/output/supervising/base/gn2v01_phase2_with_hits_nodropout_week3_b2000_e40_20240208-T151532/ckpts/epoch=025-val_loss=0.53310__test_zprime.h5
+    sample_path: /home/xzcaplas/PHAS0097_RLASSEN/salt/submit/output/supervising/base/gn2v01_phase2_with_hits_nodropout_week3_b2000_e40_20240208-T151532/ckpts/epoch=025-val_loss=0.53310__test_pp_output_test_zprime_with_GN2_VS_GNCLUS_variables_reconstructed_tracks.h5
+    cuts:
+      - "num_reconstructed_tracks == 1"
+    label: GNCLUS ($N_{\text{reconstructed tracks}}$=1)
+  
+  GN2 2:
+    name: gn2v01_phase2_without_hits_b2000_e40
+    #sample_path: /home/xzcaplas/PHAS0097_RLASSEN/salt/submit/output/supervising/base/gn2v01_phase2_without_hits_b2000_e40_20240207-T121630/ckpts/epoch=025-val_loss=0.54534__test_pp_output_test_zprime_with_GN2_VS_GNCLUS_variables.h5
+    sample_path: /home/xzcaplas/PHAS0097_RLASSEN/salt/submit/output/supervising/base/gn2v01_phase2_without_hits_b2000_e40_20240207-T121630/ckpts/epoch=025-val_loss=0.54534__test_pp_output_test_zprime_with_GN2_VS_GNCLUS_variables_reconstructed_tracks.h5
+    cuts:
+      - "num_reconstructed_tracks >= 2"
+    label: GN2 ($N_{\text{reconstructed tracks}}\geq$2)
+
+  
+  GNCLUS 2:
+    name: gn2v01_phase2_with_hits_nodropout_week3_b2000_e40
+    #sample_path: /home/xzcaplas/PHAS0097_RLASSEN/salt/submit/output/supervising/base/gn2v01_phase2_with_hits_nodropout_week3_b2000_e40_20240208-T151532/ckpts/epoch=025-val_loss=0.53310__test_zprime.h5
+    sample_path: /home/xzcaplas/PHAS0097_RLASSEN/salt/submit/output/supervising/base/gn2v01_phase2_with_hits_nodropout_week3_b2000_e40_20240208-T151532/ckpts/epoch=025-val_loss=0.53310__test_pp_output_test_zprime_with_GN2_VS_GNCLUS_variables_reconstructed_tracks.h5
+    cuts:
+      - "num_reconstructed_tracks >= 2"
+    label: GNCLUS ($N_{\text{reconstructed tracks}}\geq$2 )
+
+  
+  GN2:
+    name: gn2v01_phase2_without_hits_b2000_e40
+    #sample_path: /home/xzcaplas/PHAS0097_RLASSEN/salt/submit/output/supervising/base/gn2v01_phase2_without_hits_b2000_e40_20240207-T121630/ckpts/epoch=025-val_loss=0.54534__test_pp_output_test_zprime_with_GN2_VS_GNCLUS_variables.h5
+    sample_path: /home/xzcaplas/PHAS0097_RLASSEN/salt/submit/output/supervising/base/gn2v01_phase2_without_hits_b2000_e40_20240207-T121630/ckpts/epoch=025-val_loss=0.54534__test_pp_output_test_zprime_with_GN2_VS_GNCLUS_variables_reconstructed_tracks.h5
+    label: GN2
+
+  
+  GNCLUS:
+    name: gn2v01_phase2_with_hits_nodropout_week3_b2000_e40
+    #sample_path: /home/xzcaplas/PHAS0097_RLASSEN/salt/submit/output/supervising/base/gn2v01_phase2_with_hits_nodropout_week3_b2000_e40_20240208-T151532/ckpts/epoch=025-val_loss=0.53310__test_zprime.h5
+    sample_path: /home/xzcaplas/PHAS0097_RLASSEN/salt/submit/output/supervising/base/gn2v01_phase2_with_hits_nodropout_week3_b2000_e40_20240208-T151532/ckpts/epoch=025-val_loss=0.53310__test_pp_output_test_zprime_with_GN2_VS_GNCLUS_variables_reconstructed_tracks.h5
+    label: GNCLUS
+
+  #GNCLUSW:
+   # name: GN2_Clus
+   # sample_path: /home/xzcapwsl/phd/projects/GN2Clus/saved_models/GN2Clus/ckpts/epoch=012-val_loss=0.58957__test_zprime.h5
+   # cuts:
+   #   - "valid == 0"
+   # label: GNCLUS
+
+
+  #GN2:
+  #  name: gn2v01_phase2_without_hits_b2000_e40
+  #  sample_path: /home/xzcaplas/PHAS0097_RLASSEN/salt/submit/output/supervising/base/gn2v01_phase2_without_hits_b2000_e40_20240207-T121630/ckpts/epoch=025-val_loss=0.54534__test_pp_output_test_zprime_with_GN2_VS_GNCLUS_variables_b_track.h5
+  #  label: GN2
+
+  #GNCLUS Local x,y,z:
+  #  name: gn2v01_phase2_with_hits_local_xyz_nodropout_week3_b2000_e40
+  #  sample_path: /home/xzcaplas/PHAS0097_RLASSEN/salt/submit/output/supervising/base/gn2v01_phase2_with_hits_local_xyz_nodropout_week3_b2000_e40_20240210-T030624/ckpts/epoch=017-val_loss=0.54591__test_zprime.h5
+  #  cuts:
+  #    - "leadingHadron_abs_charge == 1"
+  #  label: GNCLUS Local x,y,z
+  
+  #GNCLUS:
+  #  name: gn2v01_phase2_with_hits_nodropout_week3_b2000_e40
+  #  sample_path: /home/xzcaplas/PHAS0097_RLASSEN/salt/submit/output/supervising/base/gn2v01_phase2_with_hits_nodropout_week3_b2000_e40_20240208-T151532/ckpts/epoch=025-val_loss=0.53310__test_pp_output_test_zprime_with_GN2_VS_GNCLUS_variables_b_track.h5
+  #  label: GNCLUS
+    
+  # Uses default sample path, and default f_c
+
+  #Retrained_DebuggedModel:
+  #  name: gn2v01_retrained_with_split_train_val_b2000_e40
+  #  sample_path: /home/xzcaplas/PHAS0097_RLASSEN/salt/submit/output/supervising/base/gn2v01_retrained_with_split_train_val_b2000_e40_20231124-T120742/ckpts/epoch=028-val_loss=0.59344__test_zprime.h5
+  #  label: Retrained_DebuggedModel
+
+  #Model_250_750_GeV:
+  #  name: gn2v01_retrained_with_split_train_val_b2000_e40
+  #  sample_path: /home/xzcaplas/PHAS0097_RLASSEN/salt/submit/output/supervising/base/gn2v01_retrained_with_split_train_val_b2000_e40_20231124-T120742/ckpts/epoch=028-val_loss=0.59344__test_zprime.h5
+  #  label: Model_250_750_GeV
+  #  cuts:
+  #  - "pt > 250000"
+  #  - "pt < 750000"
+  
+  #Model_750_1500_GeV:
+  #    name: gn2v01_retrained_with_split_train_val_b2000_e40
+  #    sample_path: /home/xzcaplas/PHAS0097_RLASSEN/salt/submit/output/supervising/base/gn2v01_retrained_with_split_train_val_b2000_e40_20231124-T120742/ckpts/epoch=028-val_loss=0.59344__test_zprime.h5
+  #    label: Model_750_1500_GeV
+  #    cuts:
+  #    - "pt > 750000"
+  #    - "pt < 1500000"
+
+  #Model_1500_3000_GeV:
+  #    name: gn2v01_retrained_with_split_train_val_b2000_e40
+  #    sample_path: /home/xzcaplas/PHAS0097_RLASSEN/salt/submit/output/supervising/base/gn2v01_retrained_with_split_train_val_b2000_e40_20231124-T120742/ckpts/epoch=028-val_loss=0.59344__test_zprime.h5
+  #    label: Model_1500_3000_GeV
+  #    cuts:
+  #    - "pt > 1500000"
+  #    - "pt < 3000000"
+
+  #Model_3000_5000_GeV:
+  #    name: gn2v01_retrained_with_split_train_val_b2000_e40
+  #    sample_path: /home/xzcaplas/PHAS0097_RLASSEN/salt/submit/output/supervising/base/gn2v01_retrained_with_split_train_val_b2000_e40_20231124-T120742/ckpts/epoch=028-val_loss=0.59344__test_zprime.h5
+  #    label: Model_3000_5000_GeV
+  #    cuts:
+  #    - "pt > 3000000"
+  #    - "pt < 5000000"
+
+
+#taggers:
+#  # Uses default sample path, and default f_c
+#  GN120220509: 
+#    name: GN120220509
+#    label: GN120220509
+#  # Uses default sample path, and updated f_c
+  
+    #f_c: 0.2
+    #label: Dummy $f_c$ = 0.2
+#  # Uses updated sample path, and default f_c
+#  FirstModel_RL:
+#    #name: gn2v01_first_model_b2000_e40_20231114-T103729
+#    name: gn2v01_baseline_2k_2_b2000_e40
+#    sample_path: /home/xzcaplas/PHAS0097_RLASSEN/salt/submit/output/supervising/base/gn2v01_baseline_2k_2_b2000_e40_20231116-T131822/ckpts/epoch=022-val_loss=0.59781__test_zprime.h5
+#    label: FirstModel_RL
+
+      

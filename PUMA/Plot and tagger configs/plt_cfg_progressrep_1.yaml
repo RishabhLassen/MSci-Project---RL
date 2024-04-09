@@ -1,0 +1,57 @@
+#plot_dir: /home/xzcaplas/Outputted_plotting/DissPlots/investigating_GN2/fc
+#plot_dir: /home/xzcaplas/Outputted_plotting/DissPlots/Retraining_GN2/low_ttbar_fake
+plot_dir: /home/xzcaplas/Outputted_plotting/DissPlots/Retraining_GN2/ttbar_disc
+timestamp: False
+results_default:
+  atlas_second_tag: $\sqrt{s} = 13.6$ TeV, MC23
+  
+taggers_config: taggers_progressrep_1.yaml
+taggers: 
+  - GN2
+  - GN1
+  #- DL1d
+reference_tagger: GN1
+#   - GN2 $f_c$ = 1.00
+#   - GN2 $f_c$ = 0.75
+#   - GN2 $f_c$ = 0.50
+#   - GN2 $f_c$ = 0.25
+#   - GN2 $f_c$ = 0.00
+# reference_tagger: GN2 $f_c$ = 0.00
+
+
+
+sample:
+  name: ttbar
+  cuts:
+    - "pt > 20000"
+    - "pt < 250000"
+    - "eta < 2.5"
+    - "eta > -2.5"
+  str: $t\overline{t}$ 20 < $p_T$ < 250 GeV, $|\eta| < 2.5$
+
+# roc_plots:
+#   -  args:
+#       signal: cjets
+#       x_range: [0.3, 1.0]
+#       plot_kwargs:
+#         figsize: [8.5, 7.5]
+#   -  args:
+#       signal: bjets
+#       x_range: [0.3, 1.0]
+#       plot_kwargs:
+#         figsize: [8.5, 7.5]
+disc_plots:
+  - args:
+      signal: bjets
+      plot_kwargs:
+        wp_vlines: [70, 80]
+
+
+
+eff_vs_var_plots:
+  - args:
+      signal: bjets
+      plot_kwargs:
+        fixed_rejections: 
+          cjets: 10
+          ujets: 100

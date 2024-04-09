@@ -1,0 +1,139 @@
+#plot_dir: /home/xzcaplas/Outputted_plotting/GN2_VS_GNCLUS_Variables_b_total_updated_nextweekHadronConeExclTruthLabelLxy_week9_fixedOP/GN2_Vs_GNCLUS_charged_vs_neutral/zprime
+#plot_dir: /home/xzcaplas/Outputted_plotting/TESTING_1/layered
+#plot_dir: /home/xzcaplas/Outputted_plotting/GN2_VS_GNCLUS_reconstructedtracks/0
+#plot_dir:  /home/xzcaplas/Outputted_plotting/GN2_VS_GNCLUS_charged_neutral_hadrons/full_wp
+plot_dir: /home/xzcaplas/Outputted_plotting/GN2_VS_GNCLUS_Variables_b_total_disccheck
+timestamp: False
+results_default:
+  remove_nan: True
+  atlas_second_tag: $\sqrt{s} = 13.6$ TeV, MC23
+  
+taggers_config: taggers_zprime_variables.yaml
+taggers: 
+  #- GN2 (neutral)
+  #- GNCLUS (neutral)
+  #- GN2 (charged)
+  #- GNCLUS (charged)
+#reference_tagger: GN2 (neutral)
+  - GN2
+  - GNCLUS
+reference_tagger: GN2
+
+
+
+
+sample:
+  name: zprime
+  cuts:
+    - "pt > 250000"
+    - "pt < 5000000"
+    - "eta < 2.5"
+    - "eta > -2.5"
+  str: $Z'$ 250 < $p_T$ < 5000 GeV, $|\eta| < 2.5$
+
+
+eff_vs_var_plots:
+###### Track Variables num_pile-up_tracks
+#  - args:
+#      signal: bjets
+#      peff_var: num_pile-up_tracks
+#      bins: [0,1,2,3,4,5,6,7,8,9,10,11,12]
+#      plot_kwargs:
+#        xlabel: $N_{\text{pileup-tracks}}$
+#        flat_per_bin: False
+#        working_point: 0.35
+###### Track Variables num_fake_tracks
+#  - args:
+#      signal: bjets
+#      peff_var: num_fake_tracks
+#      bins: [0,1,2,3,4,5,6,7,8,9,10]
+#      plot_kwargs:
+#        xlabel: $N_{\text{fake-tracks}}$
+#        flat_per_bin: False
+#        working_point: 0.35
+###### Track Variables num_primary_tracks
+#  - args:
+#      signal: bjets
+#      peff_var: num_primary_tracks
+#      bins: [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20]
+#      plot_kwargs:
+#        xlabel: $N_{\text{primary-tracks}}$
+#        flat_per_bin: False
+#        working_point: 0.35
+###### Track Variables num_fromB_tracks
+#  - args:
+#      signal: bjets
+#      peff_var: num_fromB_tracks
+#      bins: [0,1,2,3,4,5,6,7,8,9,10]
+#      plot_kwargs:
+#        xlabel: $N_{\text{from any B-tracks}}$
+#        flat_per_bin: False
+#        working_point: 0.35
+###### Track Variables num_fromBC_tracks
+#  - args:
+#      signal: bjets
+#      peff_var: num_fromBC_tracks
+#      bins: [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16]
+#      plot_kwargs:
+#        xlabel: $N_{\text{fromBC-tracks}}$
+#        flat_per_bin: False
+#        working_point: 0.35
+###### Track Variables num_fromC_tracks
+#  - args:
+#      signal: bjets
+#      peff_var: num_fromC_tracks
+#      bins: [0,1,2,3,4,5,6,7,8,9,10]
+#      plot_kwargs:
+#        xlabel: $N_{\text{fromC-tracks}}$
+#        flat_per_bin: False
+#        working_point: 0.35
+###### Track Variables num_fromTau_tracks
+#  - args:
+#      signal: bjets
+#      peff_var: num_fromTau_tracks
+#      bins: [0,1,2,3,4,5,6]
+#      plot_kwargs:
+#        xlabel: $N_{\text{𝜏-tracks}}$
+#        flat_per_bin: False
+#        working_point: 0.35
+###### Track Variables num_otherSecondary_tracks
+#  - args:
+#      signal: bjets
+#      peff_var: num_otherSecondary_tracks
+#      bins: [0,1,2,3,4,5,6,7,8,9,10]
+#      plot_kwargs:
+#        xlabel: $N_{\text{otherSecondary-tracks}}$
+#        flat_per_bin: False
+#        working_point: 0.35
+###### Track Variables HadronConeExclTruthLabelLxy
+  - args:
+      signal: bjets
+      peff_var: HadronConeExclTruthLabelLxy
+     #bins: [0,20,40,60,80,100,120,140,160,180,200,220,240,260,280,300,320,340,360,380,400,420,440,460,480,500,520,540,560,580,600,620,640,660,680]
+      bins: [0,33.25,50.5,88.5,122.5,299,371,443,514,554]
+      plot_kwargs:
+        xlabel: $L_{\text{xy}} \text{ of Main Hadron}$
+        flat_per_bin: False
+        #working_point: 0.35
+        disc_cut: 2.161
+###### Track Variables num_B_total_tracks
+  - args:
+      signal: bjets
+      peff_var: num_B_total_tracks
+      bins: [0,1,2,3,4,5,6,7,8,9,10]
+      plot_kwargs:
+        xlabel: $N_{\text{from any B-tracks}}$
+        flat_per_bin: False
+        #working_point: 0.35
+        disc_cut: 2.161
+
+  - args:
+      signal: bjets
+      peff_var: pt
+      plot_kwargs:
+        flat_per_bin: False
+        #working_point: 0.35
+        disc_cut: 2.161 
+    
+
+    

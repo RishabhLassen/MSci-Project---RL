@@ -1,0 +1,177 @@
+plot_dir: /home/xzcaplas/Outputted_plotting/TrackVariablePlots/all_variables/ttbar_False_large_range
+timestamp: False
+results_default:
+  atlas_second_tag: $\sqrt{s} = 13.6$ TeV, MC23
+  
+taggers_config: taggers.yaml
+taggers: 
+  - GN2
+reference_tagger: GN2
+
+
+sample:
+  name: ttbar
+  cuts:
+    - "pt > 20000"
+    - "pt < 250000"
+    - "eta < 2.5"
+    - "eta > -2.5"
+  str: $t\overline{t}$ 20 < $p_T$ < 250 GeV, $|\eta| < 2.5$
+
+roc_plots:
+  -  args:
+      signal: cjets
+      x_range: [0.5, 1.0]
+      plot_kwargs:
+        figsize: [8.5, 7.5]
+  -  args:
+      signal: bjets
+      x_range: [0.5, 1.0]
+      plot_kwargs:
+        figsize: [8.5, 7.5]
+  #-  args:
+  #    signal: bjets
+  #    x_range: [0.5, 1.0]
+  #    include_taggers: ['GN120220509']
+  #-  args:
+  #    signal: bjets
+  #    x_range: [0.5, 1.0]
+  #    include_taggers: ['GN1Lep20220509']
+  -  args:
+      signal: bjets
+      x_range: [0.5, 1.0]
+      include_taggers: ['GN2']
+  #-  args:
+  #    signal: bjets
+  #    x_range: [0.5, 1.0]
+  #    exclude_taggers: ['dummy1']
+
+fracscan_plots:
+  - args:
+      signal: bjets
+      frac_flav: c
+      efficiency: 0.70
+      backgrounds: [cjets, ujets]
+      plot_kwargs:
+        figsize: [8.5, 7.5]
+
+disc_plots:
+  - args:
+      signal: bjets
+      plot_kwargs:
+        wp_vlines: [70, 77, 80]
+
+prob_plots:
+  - args:
+      signal: bjets
+
+eff_vs_var_plots:
+  - args:
+      signal: bjets
+      plot_kwargs:
+        flat_per_bin: True
+        working_point: 0.7
+
+###### Track Variables num_HF_tracks
+  - args:
+      signal: bjets
+      peff_var: num_HF_tracks
+      bins: [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18]
+      plot_kwargs:
+        xlabel: $N_{\text{HF-tracks}}$
+        flat_per_bin: False
+        working_point: 0.7
+###### Track Variables num_pile-up_tracks
+  - args:
+      signal: bjets
+      peff_var: num_pile-up_tracks
+      bins: [0,1,2,3,4,5,6,7,8,9]
+      plot_kwargs:
+        xlabel: $N_{\text{pileup-tracks}}$
+        flat_per_bin: False
+        working_point: 0.7
+###### Track Variables num_fake_tracks
+  - args:
+      signal: bjets
+      peff_var: num_fake_tracks
+      bins: [0,1,2,3,4,5,6]
+      plot_kwargs:
+
+        xlabel: $N_{\text{fake-tracks}}$
+        flat_per_bin: False
+        working_point: 0.7
+###### Track Variables num_primary_tracks
+  - args:
+      signal: bjets
+      peff_var: num_primary_tracks
+      bins: [0,1,2,3,4,5,6,7,8,9,10,11,12,13]
+      plot_kwargs:
+        xlabel: $N_{\text{primary-tracks}}$
+        flat_per_bin: False
+        working_point: 0.7
+###### Track Variables num_fromB_tracks
+  - args:
+      signal: bjets
+      peff_var: num_fromB_tracks
+      bins: [0,1,2,3,4,5,6,7,8,9]
+      plot_kwargs:
+        xlabel: $N_{\text{fromB-tracks}}$
+        flat_per_bin: False
+        working_point: 0.7
+###### Track Variables num_fromBC_tracks
+  - args:
+      signal: bjets
+      peff_var: num_fromBC_tracks
+      bins: [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]
+      plot_kwargs:
+        xlabel: $N_{\text{fromBC-tracks}}$
+        flat_per_bin: False
+        working_point: 0.7
+###### Track Variables num_fromC_tracks
+  - args:
+      signal: bjets
+      peff_var: num_fromC_tracks
+      bins: [0,1,2,3,4,5,6]
+      plot_kwargs:
+        xlabel: $N_{\text{fromC-tracks}}$
+        flat_per_bin: False
+        working_point: 0.7
+###### Track Variables num_fromTau_tracks
+  - args:
+      signal: bjets
+      peff_var: num_fromTau_tracks
+      bins: [0,1,2,3,4,5,6]
+      plot_kwargs:
+        xlabel: $N_{\text{𝜏-tracks}}$
+        flat_per_bin: False
+        working_point: 0.7
+###### Track Variables num_otherSecondary_tracks
+  - args:
+      signal: bjets
+      peff_var: num_otherSecondary_tracks
+      bins: [0,1,2,3,4,5,6]
+      plot_kwargs:
+        xlabel: $N_{\text{otherSecondary-tracks}}$
+        flat_per_bin: False
+        working_point: 0.7
+    
+
+###### # /home/xzcaplas/Outputted_plotting/TrackVariablePlots/
+  - args:
+      signal: bjets
+      plot_kwargs:
+        fixed_rejections: 
+          cjets: 10
+          ujets: 100
+  - args:
+      signal: bjets
+      plot_kwargs:
+        flat_per_bin: True
+        working_point: 0.7
+  - args:
+      signal: bjets
+      peff_var: eta
+      bins: [-2.5, -2.0, -1.5, -1.0, -0.5, 0, 0.5, 1.0, 1.5, 2.0, 2.5]
+      plot_kwargs:
+        flat_per_bin: False
+        working_point: 0.7

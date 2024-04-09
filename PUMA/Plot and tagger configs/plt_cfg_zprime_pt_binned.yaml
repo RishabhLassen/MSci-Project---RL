@@ -1,0 +1,83 @@
+plot_dir: /home/xzcaplas/Outputted_plotting/DissPlots/GNCLUS/GN2_VS_GNCLUS_pt_binned/high_pT
+timestamp: False
+results_default:
+  atlas_second_tag: $\sqrt{s} = 13.6$ TeV, MC23
+  
+taggers_config: taggers_zprime_pt_binned.yaml
+taggers: 
+  #- GN2 (250 GeV - 750 GeV)
+  #- GNCLUSW (250 GeV - 750 GeV)
+#reference_tagger: GN2 (250 GeV - 750 GeV)
+  #- GN2 (1500 GeV - 3000 GeV)
+  #- GNCLUSW (1500 GeV - 3000 GeV)
+#reference_tagger: GN2 (1500 GeV - 3000 GeV)
+  - GN2 (3000 GeV - 5000 GeV)
+  - GNCLUSW (3000 GeV - 5000 GeV)
+reference_tagger: GN2 (3000 GeV - 5000 GeV)
+
+sample:
+  name: zprime
+  cuts:
+    - "pt > 250000"
+    - "pt < 5000000"
+    - "eta < 2.5"
+    - "eta > -2.5"
+  str: $Z'$, $|\eta| < 2.5$
+
+roc_plots:
+  -  args:
+      signal: cjets
+      x_range: [0.35, 1.0]
+      plot_kwargs:
+        figsize: [8.5, 7.5]
+  -  args:
+      signal: bjets
+      x_range: [0.35, 1.0]
+      plot_kwargs:
+        figsize: [8.5, 7.5]
+
+
+
+fracscan_plots:
+  - args:
+      signal: bjets
+      frac_flav: c
+      efficiency: 0.70
+      backgrounds: [cjets, ujets]
+      plot_kwargs:
+        figsize: [8.5, 7.5]
+
+disc_plots:
+  - args:
+      signal: bjets
+      plot_kwargs:
+        wp_vlines: [20, 35, 50]
+
+prob_plots:
+  - args:
+      signal: bjets
+
+eff_vs_var_plots:
+  - args:
+      signal: bjets
+      plot_kwargs:
+        flat_per_bin: True
+        working_point: 0.35
+  - args:
+      signal: bjets
+      plot_kwargs:
+        fixed_rejections: 
+          cjets: 10
+          ujets: 100
+  - args:
+      signal: bjets
+      plot_kwargs:
+        flat_per_bin: True
+        working_point: 0.35
+  - args:
+      signal: bjets
+      peff_var: eta
+      bins: [-2.5, -2.0, -1.5, -1.0, -0.5, 0, 0.5, 1.0, 1.5, 2.0, 2.5]
+      plot_kwargs:
+        flat_per_bin: False
+        working_point: 0.35

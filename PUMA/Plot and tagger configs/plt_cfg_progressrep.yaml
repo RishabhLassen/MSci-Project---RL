@@ -1,0 +1,91 @@
+#plot_dir: /home/xzcaplas/Outputted_plotting/DissPlots/investigating_GN2/fc
+#plot_dir: /home/xzcaplas/Outputted_plotting/DissPlots/Retraining_GN2/low_ttbar_fake
+plot_dir: /home/xzcaplas/Outputted_plotting/DissPlots/Validating_GN2/ttbar
+timestamp: False
+results_default:
+  atlas_second_tag: $\sqrt{s} = 13.6$ TeV
+  
+taggers_config: taggers_progressrep_1.yaml
+taggers: 
+  - GN2
+  - GN2 (ATLAS Official)
+  - GN1
+  - DL1d
+reference_tagger: DL1d
+#   - GN2 $f_c$ = 1.00
+#   - GN2 $f_c$ = 0.75
+#   - GN2 $f_c$ = 0.50
+#   - GN2 $f_c$ = 0.25
+#   - GN2 $f_c$ = 0.00
+# reference_tagger: GN2 $f_c$ = 0.00
+
+
+
+sample:
+  name: ttbar
+  cuts:
+    - "pt > 20000"
+    - "pt < 250000"
+    - "eta < 2.5"
+    - "eta > -2.5"
+  str: $t\overline{t}$ 20 < $p_T$ < 250 GeV, $|\eta| < 2.5$
+
+roc_plots:
+  -  args:
+      signal: cjets
+      x_range: [0.5, 1.0]
+      plot_kwargs:
+        figsize: [8.5, 7.5]
+  -  args:
+      signal: bjets
+      x_range: [0.5, 1.0]
+      plot_kwargs:
+        figsize: [8.5, 7.5]
+  #-  args:
+  #    signal: bjets
+  #    x_range: [0.5, 1.0]
+  #    exclude_taggers: ['dummy1']
+
+# fracscan_plots:
+#   - args:
+#       signal: bjets
+#       frac_flav: c
+#       efficiency: 0.70
+#       backgrounds: [cjets, ujets]
+#       plot_kwargs:
+#         figsize: [8.5, 7.5]
+
+disc_plots:
+  - args:
+      signal: bjets
+      plot_kwargs:
+        wp_vlines: [70]
+
+# prob_plots:
+#   - args:
+#       signal: bjets
+
+# eff_vs_var_plots:
+#   - args:
+#       signal: bjets
+#       plot_kwargs:
+#         flat_per_bin: True
+#         working_point: 0.7
+#   - args:
+#       signal: bjets
+#       plot_kwargs:
+#         fixed_rejections: 
+#           cjets: 10
+#           ujets: 100
+#   - args:
+#       signal: bjets
+#       plot_kwargs:
+#         flat_per_bin: True
+#         working_point: 0.7
+#   - args:
+#       signal: bjets
+#       peff_var: eta
+#       bins: [-2.5, -2.0, -1.5, -1.0, -0.5, 0, 0.5, 1.0, 1.5, 2.0, 2.5]
+#       plot_kwargs:
+#         flat_per_bin: False
+#         working_point: 0.7

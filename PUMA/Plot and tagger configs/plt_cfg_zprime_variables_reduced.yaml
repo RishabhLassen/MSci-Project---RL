@@ -1,0 +1,144 @@
+plot_dir: /home/xzcaplas/Outputted_plotting/GN2_VS_GNCLUS_Variables_reconstructedtracks/
+timestamp: False
+results_default:
+  atlas_second_tag: $\sqrt{s} = 13.6$ TeV, MC23
+  
+taggers_config: taggers_zprime_variables_reconstructed_tracks.yaml
+taggers: 
+  - GN2 0
+  - GNCLUS 0
+  - GN2 1
+  - GNCLUS 1
+  - GN2 2
+  - GNCLUS 2
+reference_tagger: GN2 0
+
+
+
+
+sample:
+  name: zprime
+  cuts:
+    - "pt > 250000"
+    - "pt < 5000000"
+    - "eta < 2.5"
+    - "eta > -2.5"
+  str: $Z'$ 250 < $p_T$ < 5000 GeV, $|\eta| < 2.5$
+
+roc_plots:
+  -  args:
+      signal: cjets
+      x_range: [0.5, 1.0]
+      plot_kwargs:
+        figsize: [8.5, 7.5]
+  -  args:
+      signal: bjets
+      x_range: [0.5, 1.0]
+      plot_kwargs:
+        figsize: [8.5, 7.5]
+
+
+
+fracscan_plots:
+  - args:
+      signal: bjets
+      frac_flav: c
+      efficiency: 0.70
+      backgrounds: [cjets, ujets]
+      plot_kwargs:
+        figsize: [8.5, 7.5]
+
+disc_plots:
+  - args:
+      signal: bjets
+      plot_kwargs:
+        wp_vlines: [20, 35, 50]
+
+prob_plots:
+  - args:
+      signal: bjets
+
+eff_vs_var_plots:
+###### Track Variables num_HF_tracks
+  - args:
+      signal: bjets
+      peff_var: num_HF_tracks
+      bins: [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20]
+      plot_kwargs:
+        xlabel: $N_{\text{HF-tracks}}$
+        flat_per_bin: False
+        working_point: 0.35
+
+
+###### Track Variables num_fromB_tracks
+  - args:
+      signal: bjets
+      peff_var: num_fromB_tracks
+      bins: [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16]
+      plot_kwargs:
+        xlabel: $N_{\text{fromB-tracks}}$
+        flat_per_bin: False
+        working_point: 0.35
+###### Track Variables num_fromBC_tracks
+  - args:
+      signal: bjets
+      peff_var: num_fromBC_tracks
+      bins: [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16]
+      plot_kwargs:
+        xlabel: $N_{\text{fromBC-tracks}}$
+        flat_per_bin: False
+        working_point: 0.35
+###### Track Variables num_fromC_tracks
+  - args:
+      signal: bjets
+      peff_var: num_fromC_tracks
+      bins: [0,1,2,3,4,5,6,7,8,9,10]
+      plot_kwargs:
+        xlabel: $N_{\text{fromC-tracks}}$
+        flat_per_bin: False
+        working_point: 0.35
+
+###### Track Variables HadronConeExclTruthLabelLxy
+#  - args:
+#      signal: bjets
+#      peff_var: HadronConeExclTruthLabelLxy
+#      bins: [20,40,60,80,100,120,140,160]
+#      plot_kwargs:
+#        xlabel: $L_{\text{xy}} of Main Hadron$
+#        working_point: 0.35
+#        flat_per_bin: False
+###### Track Variables num_fromB_tracks + num_fromBC_tracks
+  - args:
+      signal: bjets
+      peff_var: num_fromB_tracks + num_fromBC_tracks
+      bins: [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16]
+      plot_kwargs:
+        xlabel: $N_{\text{from any B-tracks}}$
+        flat_per_bin: False
+        working_point: 0.35
+    
+
+###### # /home/xzcaplas/Outputted_plotting/TrackVariablePlots/
+  - args:
+      signal: bjets
+      plot_kwargs:
+        flat_per_bin: True
+        working_point: 0.35
+  - args:
+      signal: bjets
+      plot_kwargs:
+        fixed_rejections: 
+          cjets: 10
+          ujets: 100
+  - args:
+      signal: bjets
+      plot_kwargs:
+        flat_per_bin: True
+        working_point: 0.35
+  - args:
+      signal: bjets
+      peff_var: eta
+      bins: [-2.5, -2.0, -1.5, -1.0, -0.5, 0, 0.5, 1.0, 1.5, 2.0, 2.5]
+      plot_kwargs:
+        flat_per_bin: False
+        working_point: 0.35
