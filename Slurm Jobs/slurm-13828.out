@@ -1,0 +1,17 @@
+/var/spool/slurmd/job13828/slurm_script: line 23: SBATCH: command not found
+/var/spool/slurmd/job13828/slurm_script: line 25: SBATCH: command not found
+Running on  compute-0-1.local
+Moved dir, now in:
+/home/xzcaplas/PHAS0097_RLASSEN/salt
+
+CUDA_VISIBLE_DEVICES:
+
+CUDA_VISIBLE_DEVICES:
+
+/var/spool/slurmd/job13828/slurm_script: line 86: nvidia-smi: command not found
+Ntasks
+
+/usr/bin/python: No module named pip
+Running training script...
+Batchsize: 2000
+/var/spool/slurmd/job13828/slurm_script: line 112: salt: command not found

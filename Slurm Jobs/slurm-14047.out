@@ -1,0 +1,212 @@
+Running on  compute-0-2.local
+Moved dir, now in:
+/home/xzcaplas/PHAS0097_RLASSEN/salt
+
+CUDA_VISIBLE_DEVICES:
+
+CUDA_VISIBLE_DEVICES:
+
+/var/spool/slurmd/job14047/slurm_script: line 86: nvidia-smi: command not found
+Ntasks
+
+Obtaining file:///home/xzcaplas/PHAS0097_RLASSEN/salt
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Checking if build backend supports build_editable: started
+  Checking if build backend supports build_editable: finished with status 'done'
+  Getting requirements to build editable: started
+  Getting requirements to build editable: finished with status 'done'
+  Installing backend dependencies: started
+  Installing backend dependencies: finished with status 'done'
+  Preparing editable metadata (pyproject.toml): started
+  Preparing editable metadata (pyproject.toml): finished with status 'done'
+Requirement already satisfied: pytest==7.2.2 in ./conda/envs/salt/lib/python3.10/site-packages (from salt==0.3) (7.2.2)
+Requirement already satisfied: pytest-cov==4.0.0 in ./conda/envs/salt/lib/python3.10/site-packages (from salt==0.3) (4.0.0)
+Requirement already satisfied: h5py==3.8.0 in ./conda/envs/salt/lib/python3.10/site-packages (from salt==0.3) (3.8.0)
+Requirement already satisfied: numpy==1.24.2 in ./conda/envs/salt/lib/python3.10/site-packages (from salt==0.3) (1.24.2)
+Requirement already satisfied: torch==2.0.1 in ./conda/envs/salt/lib/python3.10/site-packages (from salt==0.3) (2.0.1)
+Requirement already satisfied: lightning==2.0.2 in ./conda/envs/salt/lib/python3.10/site-packages (from salt==0.3) (2.0.2)
+Requirement already satisfied: jsonargparse==4.19.0 in ./conda/envs/salt/lib/python3.10/site-packages (from jsonargparse[all]==4.19.0->salt==0.3) (4.19.0)
+Requirement already satisfied: torchmetrics==0.11.4 in ./conda/envs/salt/lib/python3.10/site-packages (from salt==0.3) (0.11.4)
+Requirement already satisfied: comet-ml==3.33.5 in ./conda/envs/salt/lib/python3.10/site-packages (from salt==0.3) (3.33.5)
+Requirement already satisfied: tqdm==4.65.0 in ./conda/envs/salt/lib/python3.10/site-packages (from salt==0.3) (4.65.0)
+Requirement already satisfied: rich==13.4.2 in ./conda/envs/salt/lib/python3.10/site-packages (from salt==0.3) (13.4.2)
+Requirement already satisfied: pre-commit==3.2.1 in ./conda/envs/salt/lib/python3.10/site-packages (from salt==0.3) (3.2.1)
+Requirement already satisfied: onnx==1.13.0 in ./conda/envs/salt/lib/python3.10/site-packages (from salt==0.3) (1.13.0)
+Requirement already satisfied: onnxruntime==1.13.1 in ./conda/envs/salt/lib/python3.10/site-packages (from salt==0.3) (1.13.1)
+Requirement already satisfied: atlas-ftag-tools==0.1.11 in ./conda/envs/salt/lib/python3.10/site-packages (from salt==0.3) (0.1.11)
+Requirement already satisfied: PyYAML>=5.1 in ./conda/envs/salt/lib/python3.10/site-packages (from atlas-ftag-tools==0.1.11->salt==0.3) (6.0.1)
+Requirement already satisfied: jsonschema!=3.1.0,>=2.6.0 in ./conda/envs/salt/lib/python3.10/site-packages (from comet-ml==3.33.5->salt==0.3) (4.19.2)
+Requirement already satisfied: psutil>=5.6.3 in ./conda/envs/salt/lib/python3.10/site-packages (from comet-ml==3.33.5->salt==0.3) (5.9.6)
+Requirement already satisfied: python-box<7.0.0 in ./conda/envs/salt/lib/python3.10/site-packages (from comet-ml==3.33.5->salt==0.3) (6.1.0)
+Requirement already satisfied: requests-toolbelt>=0.8.0 in ./conda/envs/salt/lib/python3.10/site-packages (from comet-ml==3.33.5->salt==0.3) (1.0.0)
+Requirement already satisfied: requests>=2.18.4 in ./conda/envs/salt/lib/python3.10/site-packages (from comet-ml==3.33.5->salt==0.3) (2.31.0)
+Requirement already satisfied: semantic-version>=2.8.0 in ./conda/envs/salt/lib/python3.10/site-packages (from comet-ml==3.33.5->salt==0.3) (2.10.0)
+Requirement already satisfied: sentry-sdk>=1.1.0 in ./conda/envs/salt/lib/python3.10/site-packages (from comet-ml==3.33.5->salt==0.3) (1.35.0)
+Requirement already satisfied: simplejson in ./conda/envs/salt/lib/python3.10/site-packages (from comet-ml==3.33.5->salt==0.3) (3.19.2)
+Requirement already satisfied: six in ./conda/envs/salt/lib/python3.10/site-packages (from comet-ml==3.33.5->salt==0.3) (1.16.0)
+Requirement already satisfied: urllib3>=1.21.1 in ./conda/envs/salt/lib/python3.10/site-packages (from comet-ml==3.33.5->salt==0.3) (2.0.7)
+Requirement already satisfied: websocket-client<1.4.0,>=0.55.0 in ./conda/envs/salt/lib/python3.10/site-packages (from comet-ml==3.33.5->salt==0.3) (1.3.3)
+Requirement already satisfied: wrapt>=1.11.2 in ./conda/envs/salt/lib/python3.10/site-packages (from comet-ml==3.33.5->salt==0.3) (1.16.0)
+Requirement already satisfied: wurlitzer>=1.0.2 in ./conda/envs/salt/lib/python3.10/site-packages (from comet-ml==3.33.5->salt==0.3) (3.0.3)
+Requirement already satisfied: everett<3.2.0,>=1.0.1 in ./conda/envs/salt/lib/python3.10/site-packages (from everett[ini]<3.2.0,>=1.0.1; python_version > "3.5"->comet-ml==3.33.5->salt==0.3) (3.1.0)
+Requirement already satisfied: dulwich!=0.20.33,>=0.20.6 in ./conda/envs/salt/lib/python3.10/site-packages (from comet-ml==3.33.5->salt==0.3) (0.21.6)
+Requirement already satisfied: docstring-parser>=0.15 in ./conda/envs/salt/lib/python3.10/site-packages (from jsonargparse[all]==4.19.0->salt==0.3) (0.15)
+Requirement already satisfied: typeshed-client>=2.1.0 in ./conda/envs/salt/lib/python3.10/site-packages (from jsonargparse[all]==4.19.0->salt==0.3) (2.4.0)
+Requirement already satisfied: fsspec>=0.8.4 in ./conda/envs/salt/lib/python3.10/site-packages (from jsonargparse[all]==4.19.0->salt==0.3) (2023.10.0)
+Requirement already satisfied: argcomplete>=2.0.0 in ./conda/envs/salt/lib/python3.10/site-packages (from jsonargparse[all]==4.19.0->salt==0.3) (3.1.6)
+Requirement already satisfied: ruyaml>=0.20.0 in ./conda/envs/salt/lib/python3.10/site-packages (from jsonargparse[all]==4.19.0->salt==0.3) (0.91.0)
+Requirement already satisfied: omegaconf>=2.1.1 in ./conda/envs/salt/lib/python3.10/site-packages (from jsonargparse[all]==4.19.0->salt==0.3) (2.3.0)
+Requirement already satisfied: reconplogger>=4.4.0 in ./conda/envs/salt/lib/python3.10/site-packages (from jsonargparse[all]==4.19.0->salt==0.3) (4.12.0)
+Requirement already satisfied: jsonnet>=0.13.0 in ./conda/envs/salt/lib/python3.10/site-packages (from jsonargparse[all]==4.19.0->salt==0.3) (0.17.0)
+Requirement already satisfied: Jinja2<5.0 in ./conda/envs/salt/lib/python3.10/site-packages (from lightning==2.0.2->salt==0.3) (3.1.2)
+Requirement already satisfied: arrow<3.0,>=1.2.0 in ./conda/envs/salt/lib/python3.10/site-packages (from lightning==2.0.2->salt==0.3) (1.3.0)
+Requirement already satisfied: beautifulsoup4<6.0,>=4.8.0 in ./conda/envs/salt/lib/python3.10/site-packages (from lightning==2.0.2->salt==0.3) (4.12.2)
+Requirement already satisfied: click<10.0 in ./conda/envs/salt/lib/python3.10/site-packages (from lightning==2.0.2->salt==0.3) (8.1.7)
+Requirement already satisfied: croniter<1.4.0,>=1.3.0 in ./conda/envs/salt/lib/python3.10/site-packages (from lightning==2.0.2->salt==0.3) (1.3.15)
+Requirement already satisfied: dateutils<2.0 in ./conda/envs/salt/lib/python3.10/site-packages (from lightning==2.0.2->salt==0.3) (0.6.12)
+Requirement already satisfied: deepdiff<8.0,>=5.7.0 in ./conda/envs/salt/lib/python3.10/site-packages (from lightning==2.0.2->salt==0.3) (6.7.1)
+Requirement already satisfied: fastapi<0.89.0,>=0.69.0 in ./conda/envs/salt/lib/python3.10/site-packages (from lightning==2.0.2->salt==0.3) (0.88.0)
+Requirement already satisfied: inquirer<5.0,>=2.10.0 in ./conda/envs/salt/lib/python3.10/site-packages (from lightning==2.0.2->salt==0.3) (3.1.3)
+Requirement already satisfied: lightning-cloud>=0.5.34 in ./conda/envs/salt/lib/python3.10/site-packages (from lightning==2.0.2->salt==0.3) (0.5.54)
+Requirement already satisfied: lightning-utilities<2.0,>=0.7.0 in ./conda/envs/salt/lib/python3.10/site-packages (from lightning==2.0.2->salt==0.3) (0.9.0)
+Requirement already satisfied: packaging in ./conda/envs/salt/lib/python3.10/site-packages (from lightning==2.0.2->salt==0.3) (23.2)
+Requirement already satisfied: pydantic<4.0,>=1.7.4 in ./conda/envs/salt/lib/python3.10/site-packages (from lightning==2.0.2->salt==0.3) (1.10.13)
+Requirement already satisfied: starlette in ./conda/envs/salt/lib/python3.10/site-packages (from lightning==2.0.2->salt==0.3) (0.22.0)
+Requirement already satisfied: starsessions<2.0,>=1.2.1 in ./conda/envs/salt/lib/python3.10/site-packages (from lightning==2.0.2->salt==0.3) (1.3.0)
+Requirement already satisfied: traitlets<7.0,>=5.3.0 in ./conda/envs/salt/lib/python3.10/site-packages (from lightning==2.0.2->salt==0.3) (5.13.0)
+Requirement already satisfied: typing-extensions<6.0,>=4.0.0 in ./conda/envs/salt/lib/python3.10/site-packages (from lightning==2.0.2->salt==0.3) (4.8.0)
+Requirement already satisfied: uvicorn<2.0 in ./conda/envs/salt/lib/python3.10/site-packages (from lightning==2.0.2->salt==0.3) (0.24.0.post1)
+Requirement already satisfied: websockets<12.0 in ./conda/envs/salt/lib/python3.10/site-packages (from lightning==2.0.2->salt==0.3) (11.0.3)
+Requirement already satisfied: pytorch-lightning in ./conda/envs/salt/lib/python3.10/site-packages (from lightning==2.0.2->salt==0.3) (2.1.2)
+Requirement already satisfied: protobuf<4,>=3.20.2 in ./conda/envs/salt/lib/python3.10/site-packages (from onnx==1.13.0->salt==0.3) (3.20.3)
+Requirement already satisfied: coloredlogs in ./conda/envs/salt/lib/python3.10/site-packages (from onnxruntime==1.13.1->salt==0.3) (15.0.1)
+Requirement already satisfied: flatbuffers in ./conda/envs/salt/lib/python3.10/site-packages (from onnxruntime==1.13.1->salt==0.3) (23.5.26)
+Requirement already satisfied: sympy in ./conda/envs/salt/lib/python3.10/site-packages (from onnxruntime==1.13.1->salt==0.3) (1.12)
+Requirement already satisfied: cfgv>=2.0.0 in ./conda/envs/salt/lib/python3.10/site-packages (from pre-commit==3.2.1->salt==0.3) (3.4.0)
+Requirement already satisfied: identify>=1.0.0 in ./conda/envs/salt/lib/python3.10/site-packages (from pre-commit==3.2.1->salt==0.3) (2.5.31)
+Requirement already satisfied: nodeenv>=0.11.1 in ./conda/envs/salt/lib/python3.10/site-packages (from pre-commit==3.2.1->salt==0.3) (1.8.0)
+Requirement already satisfied: virtualenv>=20.10.0 in ./conda/envs/salt/lib/python3.10/site-packages (from pre-commit==3.2.1->salt==0.3) (20.24.6)
+Requirement already satisfied: attrs>=19.2.0 in ./conda/envs/salt/lib/python3.10/site-packages (from pytest==7.2.2->salt==0.3) (23.1.0)
+Requirement already satisfied: iniconfig in ./conda/envs/salt/lib/python3.10/site-packages (from pytest==7.2.2->salt==0.3) (2.0.0)
+Requirement already satisfied: pluggy<2.0,>=0.12 in ./conda/envs/salt/lib/python3.10/site-packages (from pytest==7.2.2->salt==0.3) (1.3.0)
+Requirement already satisfied: exceptiongroup>=1.0.0rc8 in ./conda/envs/salt/lib/python3.10/site-packages (from pytest==7.2.2->salt==0.3) (1.1.3)
+Requirement already satisfied: tomli>=1.0.0 in ./conda/envs/salt/lib/python3.10/site-packages (from pytest==7.2.2->salt==0.3) (2.0.1)
+Requirement already satisfied: coverage>=5.2.1 in ./conda/envs/salt/lib/python3.10/site-packages (from coverage[toml]>=5.2.1->pytest-cov==4.0.0->salt==0.3) (7.3.2)
+Requirement already satisfied: markdown-it-py>=2.2.0 in ./conda/envs/salt/lib/python3.10/site-packages (from rich==13.4.2->salt==0.3) (3.0.0)
+Requirement already satisfied: pygments<3.0.0,>=2.13.0 in ./conda/envs/salt/lib/python3.10/site-packages (from rich==13.4.2->salt==0.3) (2.16.1)
+Requirement already satisfied: filelock in ./conda/envs/salt/lib/python3.10/site-packages (from torch==2.0.1->salt==0.3) (3.13.1)
+Requirement already satisfied: networkx in ./conda/envs/salt/lib/python3.10/site-packages (from torch==2.0.1->salt==0.3) (3.2.1)
+Requirement already satisfied: nvidia-cuda-nvrtc-cu11==11.7.99 in ./conda/envs/salt/lib/python3.10/site-packages (from torch==2.0.1->salt==0.3) (11.7.99)
+Requirement already satisfied: nvidia-cuda-runtime-cu11==11.7.99 in ./conda/envs/salt/lib/python3.10/site-packages (from torch==2.0.1->salt==0.3) (11.7.99)
+Requirement already satisfied: nvidia-cuda-cupti-cu11==11.7.101 in ./conda/envs/salt/lib/python3.10/site-packages (from torch==2.0.1->salt==0.3) (11.7.101)
+Requirement already satisfied: nvidia-cudnn-cu11==8.5.0.96 in ./conda/envs/salt/lib/python3.10/site-packages (from torch==2.0.1->salt==0.3) (8.5.0.96)
+Requirement already satisfied: nvidia-cublas-cu11==11.10.3.66 in ./conda/envs/salt/lib/python3.10/site-packages (from torch==2.0.1->salt==0.3) (11.10.3.66)
+Requirement already satisfied: nvidia-cufft-cu11==10.9.0.58 in ./conda/envs/salt/lib/python3.10/site-packages (from torch==2.0.1->salt==0.3) (10.9.0.58)
+Requirement already satisfied: nvidia-curand-cu11==10.2.10.91 in ./conda/envs/salt/lib/python3.10/site-packages (from torch==2.0.1->salt==0.3) (10.2.10.91)
+Requirement already satisfied: nvidia-cusolver-cu11==11.4.0.1 in ./conda/envs/salt/lib/python3.10/site-packages (from torch==2.0.1->salt==0.3) (11.4.0.1)
+Requirement already satisfied: nvidia-cusparse-cu11==11.7.4.91 in ./conda/envs/salt/lib/python3.10/site-packages (from torch==2.0.1->salt==0.3) (11.7.4.91)
+Requirement already satisfied: nvidia-nccl-cu11==2.14.3 in ./conda/envs/salt/lib/python3.10/site-packages (from torch==2.0.1->salt==0.3) (2.14.3)
+Requirement already satisfied: nvidia-nvtx-cu11==11.7.91 in ./conda/envs/salt/lib/python3.10/site-packages (from torch==2.0.1->salt==0.3) (11.7.91)
+Requirement already satisfied: triton==2.0.0 in ./conda/envs/salt/lib/python3.10/site-packages (from torch==2.0.1->salt==0.3) (2.0.0)
+Requirement already satisfied: setuptools in ./conda/envs/salt/lib/python3.10/site-packages (from nvidia-cublas-cu11==11.10.3.66->torch==2.0.1->salt==0.3) (68.2.2)
+Requirement already satisfied: wheel in ./conda/envs/salt/lib/python3.10/site-packages (from nvidia-cublas-cu11==11.10.3.66->torch==2.0.1->salt==0.3) (0.41.3)
+Requirement already satisfied: cmake in ./conda/envs/salt/lib/python3.10/site-packages (from triton==2.0.0->torch==2.0.1->salt==0.3) (3.27.7)
+Requirement already satisfied: lit in ./conda/envs/salt/lib/python3.10/site-packages (from triton==2.0.0->torch==2.0.1->salt==0.3) (17.0.5)
+Requirement already satisfied: python-dateutil>=2.7.0 in ./conda/envs/salt/lib/python3.10/site-packages (from arrow<3.0,>=1.2.0->lightning==2.0.2->salt==0.3) (2.8.2)
+Requirement already satisfied: types-python-dateutil>=2.8.10 in ./conda/envs/salt/lib/python3.10/site-packages (from arrow<3.0,>=1.2.0->lightning==2.0.2->salt==0.3) (2.8.19.14)
+Requirement already satisfied: soupsieve>1.2 in ./conda/envs/salt/lib/python3.10/site-packages (from beautifulsoup4<6.0,>=4.8.0->lightning==2.0.2->salt==0.3) (2.5)
+Requirement already satisfied: pytz in ./conda/envs/salt/lib/python3.10/site-packages (from dateutils<2.0->lightning==2.0.2->salt==0.3) (2023.3.post1)
+Requirement already satisfied: ordered-set<4.2.0,>=4.0.2 in ./conda/envs/salt/lib/python3.10/site-packages (from deepdiff<8.0,>=5.7.0->lightning==2.0.2->salt==0.3) (4.1.0)
+Requirement already satisfied: configobj in ./conda/envs/salt/lib/python3.10/site-packages (from everett[ini]<3.2.0,>=1.0.1; python_version > "3.5"->comet-ml==3.33.5->salt==0.3) (5.0.8)
+Requirement already satisfied: anyio<5,>=3.4.0 in ./conda/envs/salt/lib/python3.10/site-packages (from starlette->lightning==2.0.2->salt==0.3) (4.0.0)
+Requirement already satisfied: aiohttp!=4.0.0a0,!=4.0.0a1 in ./conda/envs/salt/lib/python3.10/site-packages (from fsspec[http]<2025.0,>2021.06.0->lightning==2.0.2->salt==0.3) (3.8.6)
+Requirement already satisfied: blessed>=1.19.0 in ./conda/envs/salt/lib/python3.10/site-packages (from inquirer<5.0,>=2.10.0->lightning==2.0.2->salt==0.3) (1.20.0)
+Requirement already satisfied: python-editor>=1.0.4 in ./conda/envs/salt/lib/python3.10/site-packages (from inquirer<5.0,>=2.10.0->lightning==2.0.2->salt==0.3) (1.0.4)
+Requirement already satisfied: readchar>=3.0.6 in ./conda/envs/salt/lib/python3.10/site-packages (from inquirer<5.0,>=2.10.0->lightning==2.0.2->salt==0.3) (4.0.5)
+Requirement already satisfied: MarkupSafe>=2.0 in ./conda/envs/salt/lib/python3.10/site-packages (from Jinja2<5.0->lightning==2.0.2->salt==0.3) (2.1.3)
+Requirement already satisfied: jsonschema-specifications>=2023.03.6 in ./conda/envs/salt/lib/python3.10/site-packages (from jsonschema!=3.1.0,>=2.6.0->comet-ml==3.33.5->salt==0.3) (2023.11.1)
+Requirement already satisfied: referencing>=0.28.4 in ./conda/envs/salt/lib/python3.10/site-packages (from jsonschema!=3.1.0,>=2.6.0->comet-ml==3.33.5->salt==0.3) (0.31.0)
+Requirement already satisfied: rpds-py>=0.7.1 in ./conda/envs/salt/lib/python3.10/site-packages (from jsonschema!=3.1.0,>=2.6.0->comet-ml==3.33.5->salt==0.3) (0.12.0)
+Requirement already satisfied: pyjwt in ./conda/envs/salt/lib/python3.10/site-packages (from lightning-cloud>=0.5.34->lightning==2.0.2->salt==0.3) (2.8.0)
+Requirement already satisfied: python-multipart in ./conda/envs/salt/lib/python3.10/site-packages (from lightning-cloud>=0.5.34->lightning==2.0.2->salt==0.3) (0.0.6)
+Requirement already satisfied: boto3 in ./conda/envs/salt/lib/python3.10/site-packages (from lightning-cloud>=0.5.34->lightning==2.0.2->salt==0.3) (1.29.1)
+Requirement already satisfied: mdurl~=0.1 in ./conda/envs/salt/lib/python3.10/site-packages (from markdown-it-py>=2.2.0->rich==13.4.2->salt==0.3) (0.1.2)
+Requirement already satisfied: antlr4-python3-runtime==4.9.* in ./conda/envs/salt/lib/python3.10/site-packages (from omegaconf>=2.1.1->jsonargparse[all]==4.19.0->salt==0.3) (4.9.3)
+Requirement already satisfied: logmatic-python>=0.1.7 in ./conda/envs/salt/lib/python3.10/site-packages (from reconplogger>=4.4.0->jsonargparse[all]==4.19.0->salt==0.3) (0.1.7)
+Requirement already satisfied: charset-normalizer<4,>=2 in ./conda/envs/salt/lib/python3.10/site-packages (from requests>=2.18.4->comet-ml==3.33.5->salt==0.3) (3.3.2)
+Requirement already satisfied: idna<4,>=2.5 in ./conda/envs/salt/lib/python3.10/site-packages (from requests>=2.18.4->comet-ml==3.33.5->salt==0.3) (3.4)
+Requirement already satisfied: certifi>=2017.4.17 in ./conda/envs/salt/lib/python3.10/site-packages (from requests>=2.18.4->comet-ml==3.33.5->salt==0.3) (2023.7.22)
+Requirement already satisfied: distro>=1.3.0 in ./conda/envs/salt/lib/python3.10/site-packages (from ruyaml>=0.20.0->jsonargparse[all]==4.19.0->salt==0.3) (1.8.0)
+Requirement already satisfied: itsdangerous<3.0.0,>=2.0.1 in ./conda/envs/salt/lib/python3.10/site-packages (from starsessions<2.0,>=1.2.1->lightning==2.0.2->salt==0.3) (2.1.2)
+Requirement already satisfied: importlib-resources>=1.4.0 in ./conda/envs/salt/lib/python3.10/site-packages (from typeshed-client>=2.1.0->jsonargparse[all]==4.19.0->salt==0.3) (6.1.1)
+Requirement already satisfied: h11>=0.8 in ./conda/envs/salt/lib/python3.10/site-packages (from uvicorn<2.0->lightning==2.0.2->salt==0.3) (0.14.0)
+Requirement already satisfied: distlib<1,>=0.3.7 in ./conda/envs/salt/lib/python3.10/site-packages (from virtualenv>=20.10.0->pre-commit==3.2.1->salt==0.3) (0.3.7)
+Requirement already satisfied: platformdirs<4,>=3.9.1 in ./conda/envs/salt/lib/python3.10/site-packages (from virtualenv>=20.10.0->pre-commit==3.2.1->salt==0.3) (3.11.0)
+Requirement already satisfied: humanfriendly>=9.1 in ./conda/envs/salt/lib/python3.10/site-packages (from coloredlogs->onnxruntime==1.13.1->salt==0.3) (10.0)
+Requirement already satisfied: mpmath>=0.19 in ./conda/envs/salt/lib/python3.10/site-packages (from sympy->onnxruntime==1.13.1->salt==0.3) (1.3.0)
+Requirement already satisfied: multidict<7.0,>=4.5 in ./conda/envs/salt/lib/python3.10/site-packages (from aiohttp!=4.0.0a0,!=4.0.0a1->fsspec[http]<2025.0,>2021.06.0->lightning==2.0.2->salt==0.3) (6.0.4)
+Requirement already satisfied: async-timeout<5.0,>=4.0.0a3 in ./conda/envs/salt/lib/python3.10/site-packages (from aiohttp!=4.0.0a0,!=4.0.0a1->fsspec[http]<2025.0,>2021.06.0->lightning==2.0.2->salt==0.3) (4.0.3)
+Requirement already satisfied: yarl<2.0,>=1.0 in ./conda/envs/salt/lib/python3.10/site-packages (from aiohttp!=4.0.0a0,!=4.0.0a1->fsspec[http]<2025.0,>2021.06.0->lightning==2.0.2->salt==0.3) (1.9.2)
+Requirement already satisfied: frozenlist>=1.1.1 in ./conda/envs/salt/lib/python3.10/site-packages (from aiohttp!=4.0.0a0,!=4.0.0a1->fsspec[http]<2025.0,>2021.06.0->lightning==2.0.2->salt==0.3) (1.4.0)
+Requirement already satisfied: aiosignal>=1.1.2 in ./conda/envs/salt/lib/python3.10/site-packages (from aiohttp!=4.0.0a0,!=4.0.0a1->fsspec[http]<2025.0,>2021.06.0->lightning==2.0.2->salt==0.3) (1.3.1)
+Requirement already satisfied: sniffio>=1.1 in ./conda/envs/salt/lib/python3.10/site-packages (from anyio<5,>=3.4.0->starlette->lightning==2.0.2->salt==0.3) (1.3.0)
+Requirement already satisfied: wcwidth>=0.1.4 in ./conda/envs/salt/lib/python3.10/site-packages (from blessed>=1.19.0->inquirer<5.0,>=2.10.0->lightning==2.0.2->salt==0.3) (0.2.10)
+Requirement already satisfied: python-json-logger in ./conda/envs/salt/lib/python3.10/site-packages (from logmatic-python>=0.1.7->reconplogger>=4.4.0->jsonargparse[all]==4.19.0->salt==0.3) (2.0.7)
+Requirement already satisfied: botocore<1.33.0,>=1.32.1 in ./conda/envs/salt/lib/python3.10/site-packages (from boto3->lightning-cloud>=0.5.34->lightning==2.0.2->salt==0.3) (1.32.1)
+Requirement already satisfied: jmespath<2.0.0,>=0.7.1 in ./conda/envs/salt/lib/python3.10/site-packages (from boto3->lightning-cloud>=0.5.34->lightning==2.0.2->salt==0.3) (1.0.1)
+Requirement already satisfied: s3transfer<0.8.0,>=0.7.0 in ./conda/envs/salt/lib/python3.10/site-packages (from boto3->lightning-cloud>=0.5.34->lightning==2.0.2->salt==0.3) (0.7.0)
+Building wheels for collected packages: salt
+  Building editable for salt (pyproject.toml): started
+  Building editable for salt (pyproject.toml): finished with status 'done'
+  Created wheel for salt: filename=salt-0.3-0.editable-py3-none-any.whl size=3000 sha256=4fb8939a9602e7d40e6d55449e6ae992990beb1bcd252cde57345943d4b73e9a
+  Stored in directory: /tmp/pip-ephem-wheel-cache-h1afksl_/wheels/e5/6c/0e/e1256ec4cd88d4d07533d699bb4a3d5449ebb9d9019e9cb72c
+Successfully built salt
+Installing collected packages: salt
+Successfully installed salt-0.3
+Running training script...
+Batchsize: 2000
+[rank: 0] Global seed set to 42
+CometLogger will be initialized in online mode
+/home/xzcaplas/PHAS0097_RLASSEN/salt/conda/envs/salt/lib/python3.10/site-packages/lightning/fabric/plugins/environments/slurm.py:165: PossibleUserWarning: The `srun` command is available on your system but is not used. HINT: If your intention is to run Lightning on SLURM, prepend your python command with `srun` like so: srun python /home/xzcaplas/PHAS0097_RLASSEN/salt/python_install/ ...
+  rank_zero_warn(
+/home/xzcaplas/PHAS0097_RLASSEN/salt/conda/envs/salt/lib/python3.10/site-packages/lightning/pytorch/trainer/connectors/accelerator_connector.py:517: UserWarning: You passed `Trainer(accelerator='cpu', precision='16-mixed')` but AMP with fp16 is not supported on CPU. Using `precision='bf16-mixed'` instead.
+  rank_zero_warn(
+Using bfloat16 Automatic Mixed Precision (AMP)
+Trainer already configured with model summary callbacks: [<class 'lightning.pytorch.callbacks.model_summary.ModelSummary'>]. Skipping setting a default `ModelSummary` callback.
+GPU available: False, used: False
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+Running in `fast_dev_run` mode: will run the requested loop using 1 batch(es). Logging and checkpointing is suppressed.
+/home/xzcaplas/PHAS0097_RLASSEN/salt/conda/envs/salt/lib/python3.10/site-packages/lightning/fabric/plugins/environments/slurm.py:165: PossibleUserWarning: The `srun` command is available on your system but is not used. HINT: If your intention is to run Lightning on SLURM, prepend your python command with `srun` like so: srun python /home/xzcaplas/PHAS0097_RLASSEN/salt/python_install/ ...
+  rank_zero_warn(
+Loading `train_dataloader` to estimate number of stepping batches.
+----------------------------------------------------------------------------------------------------
+Created training dataset with 30,000,000 jets
+Created validation dataset with 3,000,000 jets
+---------------------------------------------------------------------------------------------------- 
+
+/home/xzcaplas/PHAS0097_RLASSEN/salt/conda/envs/salt/lib/python3.10/site-packages/lightning/pytorch/loops/fit_loop.py:280: PossibleUserWarning: The number of training batches (1) is smaller than the logging interval Trainer(log_every_n_steps=50). Set a lower value for log_every_n_steps if you want to see logs for the training epoch.
+  rank_zero_warn(
+
+  | Name            | Type                   | Params
+-----------------------------------------------------------
+0 | model           | SaltModel              | 2.3 M 
+1 | model.init_nets | ModuleList             | 71.4 K
+2 | model.tasks     | ModuleList             | 130 K 
+3 | model.encoder   | TransformerEncoder     | 2.1 M 
+4 | model.pool_net  | GlobalAttentionPooling | 129   
+5 | norm            | InputNorm              | 0     
+-----------------------------------------------------------
+2.3 M     Trainable params
+0         Non-trainable params
+2.3 M     Total params
+9.374     Total estimated model params size (MB)
+Training: 0it [00:00, ?it/s]Training:   0%|          | 0/1 [00:00<?, ?it/s]Epoch 0:   0%|          | 0/1 [00:00<?, ?it/s] Epoch 0: 100%|██████████| 1/1 [00:45<00:00, 45.09s/it]Epoch 0: 100%|██████████| 1/1 [00:45<00:00, 45.09s/it, v_num=]
+Validation: 0it [00:00, ?it/s][A
+Validation:   0%|          | 0/1 [00:00<?, ?it/s][A
+Validation DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s][A
+Validation DataLoader 0: 100%|██████████| 1/1 [00:14<00:00, 14.26s/it][AEpoch 0: 100%|██████████| 1/1 [00:59<00:00, 59.90s/it, v_num=]
+                                                                      [AEpoch 0: 100%|██████████| 1/1 [00:59<00:00, 59.90s/it, v_num=]`Trainer.fit` stopped: `max_steps=1` reached.
+Epoch 0: 100%|██████████| 1/1 [00:59<00:00, 59.90s/it, v_num=]

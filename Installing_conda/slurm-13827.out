@@ -1,0 +1,1345 @@
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+ 13 82.9M   13 11.5M    0     0  12.1M      0  0:00:06 --:--:--  0:00:06 12.1M100 82.9M  100 82.9M    0     0  50.1M      0  0:00:01  0:00:01 --:--:--  102M
+PREFIX=/home/xzcaplas/PHAS0097_RLASSEN/salt/conda
+Unpacking payload ...
+Extracting _libgcc_mutex-0.1-conda_forge.tar.bz2
+Extracting ca-certificates-2023.7.22-hbcca054_0.conda
+Extracting ld_impl_linux-64-2.40-h41732ed_0.conda
+Extracting libstdcxx-ng-13.1.0-hfd8a6a1_0.conda
+Extracting pybind11-abi-4-hd8ed1ab_3.tar.bz2
+Extracting python_abi-3.10-3_cp310.conda
+Extracting tzdata-2023c-h71feb2d_0.conda
+Extracting libgomp-13.1.0-he5830b7_0.conda
+Extracting _openmp_mutex-4.5-2_gnu.tar.bz2
+Extracting libgcc-ng-13.1.0-he5830b7_0.conda
+Extracting bzip2-1.0.8-h7f98852_4.tar.bz2
+Extracting c-ares-1.19.1-hd590300_0.conda
+Extracting fmt-9.1.0-h924138e_0.tar.bz2
+Extracting icu-73.2-h59595ed_0.conda
+Extracting keyutils-1.6.1-h166bdaf_0.tar.bz2
+Extracting libev-4.33-h516909a_1.tar.bz2
+Extracting libffi-3.4.2-h7f98852_5.tar.bz2
+Extracting libiconv-1.17-h166bdaf_0.tar.bz2
+Extracting libnsl-2.0.0-h7f98852_0.tar.bz2
+Extracting libuuid-2.38.1-h0b41bf4_0.conda
+Extracting libzlib-1.2.13-hd590300_5.conda
+Extracting lz4-c-1.9.4-hcb278e6_0.conda
+Extracting lzo-2.10-h516909a_1000.tar.bz2
+Extracting ncurses-6.4-hcb278e6_0.conda
+Extracting openssl-3.1.2-hd590300_0.conda
+Extracting reproc-14.2.4-h0b41bf4_0.conda
+Extracting xz-5.2.6-h166bdaf_0.tar.bz2
+Extracting yaml-cpp-0.7.0-h27087fc_2.tar.bz2
+Extracting libedit-3.1.20191231-he28a2e2_2.tar.bz2
+Extracting libnghttp2-1.52.0-h61bc06f_0.conda
+Extracting libsolv-0.7.24-hfc55251_3.conda
+Extracting libsqlite-3.43.0-h2797004_0.conda
+Extracting libssh2-1.11.0-h0841786_0.conda
+Extracting libxml2-2.11.5-h232c23b_1.conda
+Extracting readline-8.2-h8228510_1.conda
+Extracting reproc-cpp-14.2.4-hcb278e6_0.conda
+Extracting tk-8.6.12-h27826a3_0.tar.bz2
+Extracting zstd-1.5.5-hfc55251_0.conda
+Extracting krb5-1.21.2-h659d440_0.conda
+Extracting libarchive-3.6.2-h039dbb9_1.conda
+Extracting python-3.10.12-hd12c33a_0_cpython.conda
+Extracting boltons-23.0.0-pyhd8ed1ab_0.conda
+Extracting brotli-python-1.1.0-py310hc6cd4ac_0.conda
+Extracting certifi-2023.7.22-pyhd8ed1ab_0.conda
+Extracting charset-normalizer-3.2.0-pyhd8ed1ab_0.conda
+Extracting colorama-0.4.6-pyhd8ed1ab_0.tar.bz2
+Extracting idna-3.4-pyhd8ed1ab_0.tar.bz2
+Extracting jsonpointer-2.0-py_0.tar.bz2
+Extracting libcurl-8.2.1-hca28451_0.conda
+Extracting packaging-23.1-pyhd8ed1ab_0.conda
+Extracting pluggy-1.3.0-pyhd8ed1ab_0.conda
+Extracting pycosat-0.6.4-py310h5764c6d_1.tar.bz2
+Extracting pycparser-2.21-pyhd8ed1ab_0.tar.bz2
+Extracting pysocks-1.7.1-pyha2e5f31_6.tar.bz2
+Extracting ruamel.yaml.clib-0.2.7-py310h1fa729e_1.conda
+Extracting setuptools-68.1.2-pyhd8ed1ab_0.conda
+Extracting toolz-0.12.0-pyhd8ed1ab_0.tar.bz2
+Extracting wheel-0.41.2-pyhd8ed1ab_0.conda
+Extracting cffi-1.15.1-py310h255011f_3.conda
+Extracting jsonpatch-1.32-pyhd8ed1ab_0.tar.bz2
+Extracting libmamba-1.4.2-hcea66bb_0.conda
+Extracting pip-23.2.1-pyhd8ed1ab_0.conda
+Extracting ruamel.yaml-0.17.32-py310h2372a71_0.conda
+Extracting tqdm-4.66.1-pyhd8ed1ab_0.conda
+Extracting urllib3-2.0.4-pyhd8ed1ab_0.conda
+Extracting cryptography-41.0.3-py310h75e40e8_0.conda
+Extracting libmambapy-1.4.2-py310h1428755_0.conda
+Extracting requests-2.31.0-pyhd8ed1ab_0.conda
+Extracting zstandard-0.19.0-py310h5764c6d_0.tar.bz2
+Extracting conda-package-streaming-0.9.0-pyhd8ed1ab_0.conda
+Extracting pyopenssl-23.2.0-pyhd8ed1ab_1.conda
+Extracting conda-package-handling-2.2.0-pyh38be061_0.conda
+Extracting conda-23.3.1-py310hff52083_0.conda
+Extracting conda-libmamba-solver-23.3.0-pyhd8ed1ab_0.conda
+Extracting mamba-1.4.2-py310h51d5547_0.conda
+
+Installing base environment...
+
+
+                                           __
+          __  ______ ___  ____ _____ ___  / /_  ____ _
+         / / / / __ `__ \/ __ `/ __ `__ \/ __ \/ __ `/
+        / /_/ / / / / / / /_/ / / / / / / /_/ / /_/ /
+       / .___/_/ /_/ /_/\__,_/_/ /_/ /_/_.___/\__,_/
+      /_/
+
+Transaction
+
+  Prefix: /home/xzcaplas/PHAS0097_RLASSEN/salt/conda
+
+  Updating specs:
+
+   - conda-forge/linux-64::_libgcc_mutex==0.1=conda_forge[md5=d7c89558ba9fa0495403155b64376d81]
+   - conda-forge/linux-64::ca-certificates==2023.7.22=hbcca054_0[md5=a73ecd2988327ad4c8f2c331482917f2]
+   - conda-forge/linux-64::ld_impl_linux-64==2.40=h41732ed_0[md5=7aca3059a1729aa76c597603f10b0dd3]
+   - conda-forge/linux-64::libstdcxx-ng==13.1.0=hfd8a6a1_0[md5=067bcc23164642f4c226da631f2a2e1d]
+   - conda-forge/noarch::pybind11-abi==4=hd8ed1ab_3[md5=878f923dd6acc8aeb47a75da6c4098be]
+   - conda-forge/linux-64::python_abi==3.10=3_cp310[md5=4eb33d14d794b0f4be116443ffed3853]
+   - conda-forge/noarch::tzdata==2023c=h71feb2d_0[md5=939e3e74d8be4dac89ce83b20de2492a]
+   - conda-forge/linux-64::libgomp==13.1.0=he5830b7_0[md5=56ca14d57ac29a75d23a39eb3ee0ddeb]
+   - conda-forge/linux-64::_openmp_mutex==4.5=2_gnu[md5=73aaf86a425cc6e73fcf236a5a46396d]
+   - conda-forge/linux-64::libgcc-ng==13.1.0=he5830b7_0[md5=cd93f779ff018dd85c7544c015c9db3c]
+   - conda-forge/linux-64::bzip2==1.0.8=h7f98852_4[md5=a1fd65c7ccbf10880423d82bca54eb54]
+   - conda-forge/linux-64::c-ares==1.19.1=hd590300_0[md5=e8c18d865be43e2fb3f7a145b6adf1f5]
+   - conda-forge/linux-64::fmt==9.1.0=h924138e_0[md5=b57864c85261a0fbc7132d2cc17478c7]
+   - conda-forge/linux-64::icu==73.2=h59595ed_0[md5=cc47e1facc155f91abd89b11e48e72ff]
+   - conda-forge/linux-64::keyutils==1.6.1=h166bdaf_0[md5=30186d27e2c9fa62b45fb1476b7200e3]
+   - conda-forge/linux-64::libev==4.33=h516909a_1[md5=6f8720dff19e17ce5d48cfe7f3d2f0a3]
+   - conda-forge/linux-64::libffi==3.4.2=h7f98852_5[md5=d645c6d2ac96843a2bfaccd2d62b3ac3]
+   - conda-forge/linux-64::libiconv==1.17=h166bdaf_0[md5=b62b52da46c39ee2bc3c162ac7f1804d]
+   - conda-forge/linux-64::libnsl==2.0.0=h7f98852_0[md5=39b1328babf85c7c3a61636d9cd50206]
+   - conda-forge/linux-64::libuuid==2.38.1=h0b41bf4_0[md5=40b61aab5c7ba9ff276c41cfffe6b80b]
+   - conda-forge/linux-64::libzlib==1.2.13=hd590300_5[md5=f36c115f1ee199da648e0597ec2047ad]
+   - conda-forge/linux-64::lz4-c==1.9.4=hcb278e6_0[md5=318b08df404f9c9be5712aaa5a6f0bb0]
+   - conda-forge/linux-64::lzo==2.10=h516909a_1000[md5=bb14fcb13341b81d5eb386423b9d2bac]
+   - conda-forge/linux-64::ncurses==6.4=hcb278e6_0[md5=681105bccc2a3f7f1a837d47d39c9179]
+   - conda-forge/linux-64::openssl==3.1.2=hd590300_0[md5=e5ac5227582d6c83ccf247288c0eb095]
+   - conda-forge/linux-64::reproc==14.2.4=h0b41bf4_0[md5=0f51393e019df1f0047ef864cd9ddeec]
+   - conda-forge/linux-64::xz==5.2.6=h166bdaf_0[md5=2161070d867d1b1204ea749c8eec4ef0]
+   - conda-forge/linux-64::yaml-cpp==0.7.0=h27087fc_2[md5=0449d47d8457feaa3720d4779616dde2]
+   - conda-forge/linux-64::libedit==3.1.20191231=he28a2e2_2[md5=4d331e44109e3f0e19b4cb8f9b82f3e1]
+   - conda-forge/linux-64::libnghttp2==1.52.0=h61bc06f_0[md5=613955a50485812985c059e7b269f42e]
+   - conda-forge/linux-64::libsolv==0.7.24=hfc55251_3[md5=702feab0e98333ef3eac0d948c605c2d]
+   - conda-forge/linux-64::libsqlite==3.43.0=h2797004_0[md5=903fa782a9067d5934210df6d79220f6]
+   - conda-forge/linux-64::libssh2==1.11.0=h0841786_0[md5=1f5a58e686b13bcfde88b93f547d23fe]
+   - conda-forge/linux-64::libxml2==2.11.5=h232c23b_1[md5=f3858448893839820d4bcfb14ad3ecdf]
+   - conda-forge/linux-64::readline==8.2=h8228510_1[md5=47d31b792659ce70f470b5c82fdfb7a4]
+   - conda-forge/linux-64::reproc-cpp==14.2.4=hcb278e6_0[md5=ede8e0f849f2fee2f78cb488b4ea3b33]
+   - conda-forge/linux-64::tk==8.6.12=h27826a3_0[md5=5b8c42eb62e9fc961af70bdd6a26e168]
+   - conda-forge/linux-64::zstd==1.5.5=hfc55251_0[md5=04b88013080254850d6c01ed54810589]
+   - conda-forge/linux-64::krb5==1.21.2=h659d440_0[md5=cd95826dbd331ed1be26bdf401432844]
+   - conda-forge/linux-64::libarchive==3.6.2=h039dbb9_1[md5=29cf970521d30d113f3425b84cb250f6]
+   - conda-forge/linux-64::python==3.10.12=hd12c33a_0_cpython[md5=eb6f1df105f37daedd6dca78523baa75]
+   - conda-forge/noarch::boltons==23.0.0=pyhd8ed1ab_0[md5=033eb25fffd222aceeca6d58cd953680]
+   - conda-forge/linux-64::brotli-python==1.1.0=py310hc6cd4ac_0[md5=fb6201eb1daa3a3a2f91a4833bdf27c7]
+   - conda-forge/noarch::certifi==2023.7.22=pyhd8ed1ab_0[md5=7f3dbc9179b4dde7da98dfb151d0ad22]
+   - conda-forge/noarch::charset-normalizer==3.2.0=pyhd8ed1ab_0[md5=313516e9a4b08b12dfb1e1cd390a96e3]
+   - conda-forge/noarch::colorama==0.4.6=pyhd8ed1ab_0[md5=3faab06a954c2a04039983f2c4a50d99]
+   - conda-forge/noarch::idna==3.4=pyhd8ed1ab_0[md5=34272b248891bddccc64479f9a7fffed]
+   - conda-forge/noarch::jsonpointer==2.0=py_0[md5=07d85c22a3beb102a48cd123df84c2a6]
+   - conda-forge/linux-64::libcurl==8.2.1=hca28451_0[md5=96aec6156d58591f5a4e67056521ce1b]
+   - conda-forge/noarch::packaging==23.1=pyhd8ed1ab_0[md5=91cda59e66e1e4afe9476f8ef98f5c30]
+   - conda-forge/noarch::pluggy==1.3.0=pyhd8ed1ab_0[md5=2390bd10bed1f3fdc7a537fb5a447d8d]
+   - conda-forge/linux-64::pycosat==0.6.4=py310h5764c6d_1[md5=0e565d732f6660374b45d76761c09b06]
+   - conda-forge/noarch::pycparser==2.21=pyhd8ed1ab_0[md5=076becd9e05608f8dc72757d5f3a91ff]
+   - conda-forge/noarch::pysocks==1.7.1=pyha2e5f31_6[md5=2a7de29fb590ca14b5243c4c812c8025]
+   - conda-forge/linux-64::ruamel.yaml.clib==0.2.7=py310h1fa729e_1[md5=2f9b517412af46255cef5e53a22c264e]
+   - conda-forge/noarch::setuptools==68.1.2=pyhd8ed1ab_0[md5=4fe12573bf499ff85a0a364e00cc5c53]
+   - conda-forge/noarch::toolz==0.12.0=pyhd8ed1ab_0[md5=92facfec94bc02d6ccf42e7173831a36]
+   - conda-forge/noarch::wheel==0.41.2=pyhd8ed1ab_0[md5=1ccd092478b3e0ee10d7a891adbf8a4f]
+   - conda-forge/linux-64::cffi==1.15.1=py310h255011f_3[md5=800596144bb613cd7ac58b80900ce835]
+   - conda-forge/noarch::jsonpatch==1.32=pyhd8ed1ab_0[md5=09150b51b0528a31a0f6500b96fdde82]
+   - conda-forge/linux-64::libmamba==1.4.2=hcea66bb_0[md5=0b3b4c833ea1ec555063479e2ac259dc]
+   - conda-forge/noarch::pip==23.2.1=pyhd8ed1ab_0[md5=e2783aa3f9235225eec92f9081c5b801]
+   - conda-forge/linux-64::ruamel.yaml==0.17.32=py310h2372a71_0[md5=9a03abf74d5069bda767c1bce7a41e0b]
+   - conda-forge/noarch::tqdm==4.66.1=pyhd8ed1ab_0[md5=03c97908b976498dcae97eb4e4f3149c]
+   - conda-forge/noarch::urllib3==2.0.4=pyhd8ed1ab_0[md5=18badd8fa3648d1beb1fcc7f2e0f756e]
+   - conda-forge/linux-64::cryptography==41.0.3=py310h75e40e8_0[md5=2ad1ab0b68e459f8864e74bdd5b00fe5]
+   - conda-forge/linux-64::libmambapy==1.4.2=py310h1428755_0[md5=0c942ea14a0e7a9e394882a8e4405235]
+   - conda-forge/noarch::requests==2.31.0=pyhd8ed1ab_0[md5=a30144e4156cdbb236f99ebb49828f8b]
+   - conda-forge/linux-64::zstandard==0.19.0=py310h5764c6d_0[md5=74ea667169b1296fb31bb86f13abfa49]
+   - conda-forge/noarch::conda-package-streaming==0.9.0=pyhd8ed1ab_0[md5=38253361efb303deead3eab39ae9269b]
+   - conda-forge/noarch::pyopenssl==23.2.0=pyhd8ed1ab_1[md5=34f7d568bf59d18e3fef8c405cbece21]
+   - conda-forge/noarch::conda-package-handling==2.2.0=pyh38be061_0[md5=8a3ae7f6318376aa08ea753367bb7dd6]
+   - conda-forge/linux-64::conda==23.3.1=py310hff52083_0[md5=d182178e1a62f8743044658bf3242af5]
+   - conda-forge/noarch::conda-libmamba-solver==23.3.0=pyhd8ed1ab_0[md5=2edd368915b8a1c3e294c9ac944390d9]
+   - conda-forge/linux-64::mamba==1.4.2=py310h51d5547_0[md5=a84d408833491f202a6d9f6d8fc696db]
+
+
+  Package                         Version  Build               Channel           Size
+───────────────────────────────────────────────────────────────────────────────────────
+  Install:
+───────────────────────────────────────────────────────────────────────────────────────
+
+  + _libgcc_mutex                     0.1  conda_forge         conda-forge     Cached
+  + _openmp_mutex                     4.5  2_gnu               conda-forge     Cached
+  + boltons                        23.0.0  pyhd8ed1ab_0        conda-forge     Cached
+  + brotli-python                   1.1.0  py310hc6cd4ac_0     conda-forge     Cached
+  + bzip2                           1.0.8  h7f98852_4          conda-forge     Cached
+  + c-ares                         1.19.1  hd590300_0          conda-forge     Cached
+  + ca-certificates             2023.7.22  hbcca054_0          conda-forge     Cached
+  + certifi                     2023.7.22  pyhd8ed1ab_0        conda-forge     Cached
+  + cffi                           1.15.1  py310h255011f_3     conda-forge     Cached
+  + charset-normalizer              3.2.0  pyhd8ed1ab_0        conda-forge     Cached
+  + colorama                        0.4.6  pyhd8ed1ab_0        conda-forge     Cached
+  + conda                          23.3.1  py310hff52083_0     conda-forge     Cached
+  + conda-libmamba-solver          23.3.0  pyhd8ed1ab_0        conda-forge     Cached
+  + conda-package-handling          2.2.0  pyh38be061_0        conda-forge     Cached
+  + conda-package-streaming         0.9.0  pyhd8ed1ab_0        conda-forge     Cached
+  + cryptography                   41.0.3  py310h75e40e8_0     conda-forge     Cached
+  + fmt                             9.1.0  h924138e_0          conda-forge     Cached
+  + icu                              73.2  h59595ed_0          conda-forge     Cached
+  + idna                              3.4  pyhd8ed1ab_0        conda-forge     Cached
+  + jsonpatch                        1.32  pyhd8ed1ab_0        conda-forge     Cached
+  + jsonpointer                       2.0  py_0                conda-forge     Cached
+  + keyutils                        1.6.1  h166bdaf_0          conda-forge     Cached
+  + krb5                           1.21.2  h659d440_0          conda-forge     Cached
+  + ld_impl_linux-64                 2.40  h41732ed_0          conda-forge     Cached
+  + libarchive                      3.6.2  h039dbb9_1          conda-forge     Cached
+  + libcurl                         8.2.1  hca28451_0          conda-forge     Cached
+  + libedit                  3.1.20191231  he28a2e2_2          conda-forge     Cached
+  + libev                            4.33  h516909a_1          conda-forge     Cached
+  + libffi                          3.4.2  h7f98852_5          conda-forge     Cached
+  + libgcc-ng                      13.1.0  he5830b7_0          conda-forge     Cached
+  + libgomp                        13.1.0  he5830b7_0          conda-forge     Cached
+  + libiconv                         1.17  h166bdaf_0          conda-forge     Cached
+  + libmamba                        1.4.2  hcea66bb_0          conda-forge     Cached
+  + libmambapy                      1.4.2  py310h1428755_0     conda-forge     Cached
+  + libnghttp2                     1.52.0  h61bc06f_0          conda-forge     Cached
+  + libnsl                          2.0.0  h7f98852_0          conda-forge     Cached
+  + libsolv                        0.7.24  hfc55251_3          conda-forge     Cached
+  + libsqlite                      3.43.0  h2797004_0          conda-forge     Cached
+  + libssh2                        1.11.0  h0841786_0          conda-forge     Cached
+  + libstdcxx-ng                   13.1.0  hfd8a6a1_0          conda-forge     Cached
+  + libuuid                        2.38.1  h0b41bf4_0          conda-forge     Cached
+  + libxml2                        2.11.5  h232c23b_1          conda-forge     Cached
+  + libzlib                        1.2.13  hd590300_5          conda-forge     Cached
+  + lz4-c                           1.9.4  hcb278e6_0          conda-forge     Cached
+  + lzo                              2.10  h516909a_1000       conda-forge     Cached
+  + mamba                           1.4.2  py310h51d5547_0     conda-forge     Cached
+  + ncurses                           6.4  hcb278e6_0          conda-forge     Cached
+  + openssl                         3.1.2  hd590300_0          conda-forge     Cached
+  + packaging                        23.1  pyhd8ed1ab_0        conda-forge     Cached
+  + pip                            23.2.1  pyhd8ed1ab_0        conda-forge     Cached
+  + pluggy                          1.3.0  pyhd8ed1ab_0        conda-forge     Cached
+  + pybind11-abi                        4  hd8ed1ab_3          conda-forge     Cached
+  + pycosat                         0.6.4  py310h5764c6d_1     conda-forge     Cached
+  + pycparser                        2.21  pyhd8ed1ab_0        conda-forge     Cached
+  + pyopenssl                      23.2.0  pyhd8ed1ab_1        conda-forge     Cached
+  + pysocks                         1.7.1  pyha2e5f31_6        conda-forge     Cached
+  + python                        3.10.12  hd12c33a_0_cpython  conda-forge     Cached
+  + python_abi                       3.10  3_cp310             conda-forge     Cached
+  + readline                          8.2  h8228510_1          conda-forge     Cached
+  + reproc                         14.2.4  h0b41bf4_0          conda-forge     Cached
+  + reproc-cpp                     14.2.4  hcb278e6_0          conda-forge     Cached
+  + requests                       2.31.0  pyhd8ed1ab_0        conda-forge     Cached
+  + ruamel.yaml                   0.17.32  py310h2372a71_0     conda-forge     Cached
+  + ruamel.yaml.clib                0.2.7  py310h1fa729e_1     conda-forge     Cached
+  + setuptools                     68.1.2  pyhd8ed1ab_0        conda-forge     Cached
+  + tk                             8.6.12  h27826a3_0          conda-forge     Cached
+  + toolz                          0.12.0  pyhd8ed1ab_0        conda-forge     Cached
+  + tqdm                           4.66.1  pyhd8ed1ab_0        conda-forge     Cached
+  + tzdata                          2023c  h71feb2d_0          conda-forge     Cached
+  + urllib3                         2.0.4  pyhd8ed1ab_0        conda-forge     Cached
+  + wheel                          0.41.2  pyhd8ed1ab_0        conda-forge     Cached
+  + xz                              5.2.6  h166bdaf_0          conda-forge     Cached
+  + yaml-cpp                        0.7.0  h27087fc_2          conda-forge     Cached
+  + zstandard                      0.19.0  py310h5764c6d_0     conda-forge     Cached
+  + zstd                            1.5.5  hfc55251_0          conda-forge     Cached
+
+  Summary:
+
+  Install: 75 packages
+
+  Total download: 0 B
+
+───────────────────────────────────────────────────────────────────────────────────────
+
+
+
+Transaction starting
+Linking _libgcc_mutex-0.1-conda_forge
+Linking ca-certificates-2023.7.22-hbcca054_0
+Linking ld_impl_linux-64-2.40-h41732ed_0
+Linking libstdcxx-ng-13.1.0-hfd8a6a1_0
+Linking pybind11-abi-4-hd8ed1ab_3
+Linking python_abi-3.10-3_cp310
+Linking tzdata-2023c-h71feb2d_0
+Linking libgomp-13.1.0-he5830b7_0
+Linking _openmp_mutex-4.5-2_gnu
+Linking libgcc-ng-13.1.0-he5830b7_0
+Linking bzip2-1.0.8-h7f98852_4
+Linking c-ares-1.19.1-hd590300_0
+Linking fmt-9.1.0-h924138e_0
+Linking icu-73.2-h59595ed_0
+Linking keyutils-1.6.1-h166bdaf_0
+Linking libev-4.33-h516909a_1
+Linking libffi-3.4.2-h7f98852_5
+Linking libiconv-1.17-h166bdaf_0
+Linking libnsl-2.0.0-h7f98852_0
+Linking libuuid-2.38.1-h0b41bf4_0
+Linking libzlib-1.2.13-hd590300_5
+Linking lz4-c-1.9.4-hcb278e6_0
+Linking lzo-2.10-h516909a_1000
+Linking ncurses-6.4-hcb278e6_0
+Linking openssl-3.1.2-hd590300_0
+Linking reproc-14.2.4-h0b41bf4_0
+Linking xz-5.2.6-h166bdaf_0
+Linking yaml-cpp-0.7.0-h27087fc_2
+Linking libedit-3.1.20191231-he28a2e2_2
+Linking libnghttp2-1.52.0-h61bc06f_0
+Linking libsolv-0.7.24-hfc55251_3
+Linking libsqlite-3.43.0-h2797004_0
+Linking libssh2-1.11.0-h0841786_0
+Linking libxml2-2.11.5-h232c23b_1
+Linking readline-8.2-h8228510_1
+Linking reproc-cpp-14.2.4-hcb278e6_0
+Linking tk-8.6.12-h27826a3_0
+Linking zstd-1.5.5-hfc55251_0
+Linking krb5-1.21.2-h659d440_0
+Linking libarchive-3.6.2-h039dbb9_1
+Linking python-3.10.12-hd12c33a_0_cpython
+Linking boltons-23.0.0-pyhd8ed1ab_0
+Linking brotli-python-1.1.0-py310hc6cd4ac_0
+Linking certifi-2023.7.22-pyhd8ed1ab_0
+Linking charset-normalizer-3.2.0-pyhd8ed1ab_0
+Linking colorama-0.4.6-pyhd8ed1ab_0
+Linking idna-3.4-pyhd8ed1ab_0
+Linking jsonpointer-2.0-py_0
+Linking libcurl-8.2.1-hca28451_0
+Linking packaging-23.1-pyhd8ed1ab_0
+Linking pluggy-1.3.0-pyhd8ed1ab_0
+Linking pycosat-0.6.4-py310h5764c6d_1
+Linking pycparser-2.21-pyhd8ed1ab_0
+Linking pysocks-1.7.1-pyha2e5f31_6
+Linking ruamel.yaml.clib-0.2.7-py310h1fa729e_1
+Linking setuptools-68.1.2-pyhd8ed1ab_0
+Linking toolz-0.12.0-pyhd8ed1ab_0
+Linking wheel-0.41.2-pyhd8ed1ab_0
+Linking cffi-1.15.1-py310h255011f_3
+Linking jsonpatch-1.32-pyhd8ed1ab_0
+Linking libmamba-1.4.2-hcea66bb_0
+Linking pip-23.2.1-pyhd8ed1ab_0
+Linking ruamel.yaml-0.17.32-py310h2372a71_0
+Linking tqdm-4.66.1-pyhd8ed1ab_0
+Linking urllib3-2.0.4-pyhd8ed1ab_0
+Linking cryptography-41.0.3-py310h75e40e8_0
+Linking libmambapy-1.4.2-py310h1428755_0
+Linking requests-2.31.0-pyhd8ed1ab_0
+Linking zstandard-0.19.0-py310h5764c6d_0
+Linking conda-package-streaming-0.9.0-pyhd8ed1ab_0
+Linking pyopenssl-23.2.0-pyhd8ed1ab_1
+Linking conda-package-handling-2.2.0-pyh38be061_0
+Linking conda-23.3.1-py310hff52083_0
+Linking conda-libmamba-solver-23.3.0-pyhd8ed1ab_0
+Linking mamba-1.4.2-py310h51d5547_0
+Transaction finished
+installation finished.
+Collecting package metadata (current_repodata.json): ...working... done
+Solving environment: ...working... done
+
+
+==> WARNING: A newer version of conda exists. <==
+  current version: 23.3.1
+  latest version: 23.10.0
+
+Please update conda by running
+
+    $ conda update -n base -c conda-forge conda
+
+Or to minimize the number of packages updated during conda update use
+
+     conda install conda=23.10.0
+
+
+
+## Package Plan ##
+
+  environment location: /home/xzcaplas/PHAS0097_RLASSEN/salt/conda/envs/salt
+
+  added / updated specs:
+    - python=3.10
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    bzip2-1.0.8                |       hd590300_5         248 KB  conda-forge
+    libgcc-ng-13.2.0           |       h807b86a_3         755 KB  conda-forge
+    libgomp-13.2.0             |       h807b86a_3         412 KB  conda-forge
+    libnsl-2.0.1               |       hd590300_0          33 KB  conda-forge
+    libsqlite-3.44.0           |       h2797004_0         826 KB  conda-forge
+    ncurses-6.4                |       h59595ed_2         864 KB  conda-forge
+    openssl-3.1.4              |       hd590300_0         2.5 MB  conda-forge
+    pip-23.3.1                 |     pyhd8ed1ab_0         1.3 MB  conda-forge
+    python-3.10.13             |hd12c33a_0_cpython        24.3 MB  conda-forge
+    setuptools-68.2.2          |     pyhd8ed1ab_0         454 KB  conda-forge
+    tk-8.6.13                  |noxft_h4845f30_101         3.2 MB  conda-forge
+    wheel-0.41.3               |     pyhd8ed1ab_0          57 KB  conda-forge
+    ------------------------------------------------------------
+                                           Total:        34.9 MB
+
+The following NEW packages will be INSTALLED:
+
+  _libgcc_mutex      conda-forge/linux-64::_libgcc_mutex-0.1-conda_forge 
+  _openmp_mutex      conda-forge/linux-64::_openmp_mutex-4.5-2_gnu 
+  bzip2              conda-forge/linux-64::bzip2-1.0.8-hd590300_5 
+  ca-certificates    conda-forge/linux-64::ca-certificates-2023.7.22-hbcca054_0 
+  ld_impl_linux-64   conda-forge/linux-64::ld_impl_linux-64-2.40-h41732ed_0 
+  libffi             conda-forge/linux-64::libffi-3.4.2-h7f98852_5 
+  libgcc-ng          conda-forge/linux-64::libgcc-ng-13.2.0-h807b86a_3 
+  libgomp            conda-forge/linux-64::libgomp-13.2.0-h807b86a_3 
+  libnsl             conda-forge/linux-64::libnsl-2.0.1-hd590300_0 
+  libsqlite          conda-forge/linux-64::libsqlite-3.44.0-h2797004_0 
+  libuuid            conda-forge/linux-64::libuuid-2.38.1-h0b41bf4_0 
+  libzlib            conda-forge/linux-64::libzlib-1.2.13-hd590300_5 
+  ncurses            conda-forge/linux-64::ncurses-6.4-h59595ed_2 
+  openssl            conda-forge/linux-64::openssl-3.1.4-hd590300_0 
+  pip                conda-forge/noarch::pip-23.3.1-pyhd8ed1ab_0 
+  python             conda-forge/linux-64::python-3.10.13-hd12c33a_0_cpython 
+  readline           conda-forge/linux-64::readline-8.2-h8228510_1 
+  setuptools         conda-forge/noarch::setuptools-68.2.2-pyhd8ed1ab_0 
+  tk                 conda-forge/linux-64::tk-8.6.13-noxft_h4845f30_101 
+  tzdata             conda-forge/noarch::tzdata-2023c-h71feb2d_0 
+  wheel              conda-forge/noarch::wheel-0.41.3-pyhd8ed1ab_0 
+  xz                 conda-forge/linux-64::xz-5.2.6-h166bdaf_0 
+
+
+Proceed ([y]/n)? 
+
+Downloading and Extracting Packages
+libgomp-13.2.0       | 412 KB    |            |   0% 
+wheel-0.41.3         | 57 KB     |            |   0% [A
+
+pip-23.3.1           | 1.3 MB    |            |   0% [A[A
+
+
+setuptools-68.2.2    | 454 KB    |            |   0% [A[A[A
+
+
+
+bzip2-1.0.8          | 248 KB    |            |   0% [A[A[A[A
+
+
+
+
+tk-8.6.13            | 3.2 MB    |            |   0% [A[A[A[A[A
+
+
+
+
+
+libnsl-2.0.1         | 33 KB     |            |   0% [A[A[A[A[A[A
+
+
+
+
+
+
+ncurses-6.4          | 864 KB    |            |   0% [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+python-3.10.13       | 24.3 MB   |            |   0% [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+libsqlite-3.44.0     | 826 KB    |            |   0% [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+openssl-3.1.4        | 2.5 MB    |            |   0% [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+libgcc-ng-13.2.0     | 755 KB    |            |   0% [A[A[A[A[A[A[A[A[A[A[Alibgomp-13.2.0       | 412 KB    | 3          |   4% 
+
+pip-23.3.1           | 1.3 MB    | 1          |   1% [A[A
+wheel-0.41.3         | 57 KB     | ##8        |  28% [A
+
+
+
+bzip2-1.0.8          | 248 KB    | 6          |   6% [A[A[A[A
+
+
+setuptools-68.2.2    | 454 KB    | 3          |   4% [A[A[A
+
+
+
+
+
+libnsl-2.0.1         | 33 KB     | ####9      |  49% [A[A[A[A[A[A
+
+
+
+
+
+
+ncurses-6.4          | 864 KB    | 1          |   2% [A[A[A[A[A[A[A
+
+
+
+
+tk-8.6.13            | 3.2 MB    |            |   0% [A[A[A[A[A
+
+
+
+
+
+
+
+python-3.10.13       | 24.3 MB   |            |   0% [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+libsqlite-3.44.0     | 826 KB    | 1          |   2% [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+openssl-3.1.4        | 2.5 MB    |            |   1% [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+libgcc-ng-13.2.0     | 755 KB    | 2          |   2% [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+python-3.10.13       | 24.3 MB   | #5         |  16% [A[A[A[A[A[A[A[A
+wheel-0.41.3         | 57 KB     | ########## | 100% [A
+wheel-0.41.3         | 57 KB     | ########## | 100% [A
+
+
+
+
+tk-8.6.13            | 3.2 MB    | #######5   |  76% [A[A[A[A[Alibgomp-13.2.0       | 412 KB    | ########## | 100% libgomp-13.2.0       | 412 KB    | ########## | 100% 
+
+
+
+
+
+
+
+python-3.10.13       | 24.3 MB   | ###1       |  31% [A[A[A[A[A[A[A[A
+
+
+
+bzip2-1.0.8          | 248 KB    | ########## | 100% [A[A[A[A
+
+
+
+bzip2-1.0.8          | 248 KB    | ########## | 100% [A[A[A[A
+
+
+
+
+
+libnsl-2.0.1         | 33 KB     | ########## | 100% [A[A[A[A[A[A
+
+
+
+
+
+libnsl-2.0.1         | 33 KB     | ########## | 100% [A[A[A[A[A[A
+
+
+
+
+
+
+
+python-3.10.13       | 24.3 MB   | ####4      |  45% [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+python-3.10.13       | 24.3 MB   | #####7     |  57% [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+python-3.10.13       | 24.3 MB   | #######    |  70% [A[A[A[A[A[A[A[A
+
+
+setuptools-68.2.2    | 454 KB    | ########## | 100% [A[A[A
+
+
+setuptools-68.2.2    | 454 KB    | ########## | 100% [A[A[A
+
+
+
+
+
+
+
+python-3.10.13       | 24.3 MB   | ########2  |  83% [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+libsqlite-3.44.0     | 826 KB    | ########## | 100% [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+libsqlite-3.44.0     | 826 KB    | ########## | 100% [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+python-3.10.13       | 24.3 MB   | #########7 |  98% [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+libgcc-ng-13.2.0     | 755 KB    | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+libgcc-ng-13.2.0     | 755 KB    | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A
+
+pip-23.3.1           | 1.3 MB    | ########## | 100% [A[A
+
+pip-23.3.1           | 1.3 MB    | ########## | 100% [A[A
+
+
+
+
+
+
+
+
+
+openssl-3.1.4        | 2.5 MB    | ########## | 100% [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+openssl-3.1.4        | 2.5 MB    | ########## | 100% [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+tk-8.6.13            | 3.2 MB    | ########## | 100% [A[A[A[A[A
+
+
+
+
+
+
+ncurses-6.4          | 864 KB    | ########## | 100% [A[A[A[A[A[A[A
+
+
+
+
+
+
+ncurses-6.4          | 864 KB    | ########## | 100% [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+python-3.10.13       | 24.3 MB   | ########## | 100% [A[A[A[A[A[A[A[A                                                     
+                                                     [A
+
+                                                     [A[A
+
+
+                                                     [A[A[A
+
+
+
+                                                     [A[A[A[A
+
+
+
+
+                                                     [A[A[A[A[A
+
+
+
+
+
+                                                     [A[A[A[A[A[A
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A[A[A[A[A
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+#
+# To activate this environment, use
+#
+#     $ conda activate /home/xzcaplas/PHAS0097_RLASSEN/salt/conda/envs/salt
+#
+# To deactivate an active environment, use
+#
+#     $ conda deactivate
+
+Collecting jsonnet==0.17.0
+  Downloading jsonnet-0.17.0.tar.gz (259 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 259.4/259.4 kB 8.1 MB/s eta 0:00:00
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Building wheels for collected packages: jsonnet
+  Building wheel for jsonnet (setup.py): started
+  Building wheel for jsonnet (setup.py): finished with status 'done'
+  Created wheel for jsonnet: filename=jsonnet-0.17.0-cp310-cp310-linux_x86_64.whl size=2844374 sha256=98c0778d58a45e688d242b57fcb35de0d2890a8bbcb06a2c57bcb4d6b5d9b33d
+  Stored in directory: /home/xzcaplas/.cache/pip/wheels/ff/94/99/fea04448578982f225a9ace0a530462c67ffe40d9c78b3fc32
+Successfully built jsonnet
+Installing collected packages: jsonnet
+Successfully installed jsonnet-0.17.0
+Collecting comet_ml
+  Downloading comet_ml-3.35.3-py3-none-any.whl.metadata (3.4 kB)
+Collecting jsonschema!=3.1.0,>=2.6.0 (from comet_ml)
+  Downloading jsonschema-4.19.2-py3-none-any.whl.metadata (7.9 kB)
+Collecting psutil>=5.6.3 (from comet_ml)
+  Downloading psutil-5.9.6-cp36-abi3-manylinux_2_12_x86_64.manylinux2010_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (21 kB)
+Collecting python-box<7.0.0 (from comet_ml)
+  Downloading python_box-6.1.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (3.3 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.3/3.3 MB 58.3 MB/s eta 0:00:00
+Collecting requests-toolbelt>=0.8.0 (from comet_ml)
+  Downloading requests_toolbelt-1.0.0-py2.py3-none-any.whl (54 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 54.5/54.5 kB 8.1 MB/s eta 0:00:00
+Collecting requests>=2.18.4 (from comet_ml)
+  Downloading requests-2.31.0-py3-none-any.whl.metadata (4.6 kB)
+Collecting semantic-version>=2.8.0 (from comet_ml)
+  Downloading semantic_version-2.10.0-py2.py3-none-any.whl (15 kB)
+Collecting sentry-sdk>=1.1.0 (from comet_ml)
+  Downloading sentry_sdk-1.35.0-py2.py3-none-any.whl.metadata (9.7 kB)
+Collecting simplejson (from comet_ml)
+  Downloading simplejson-3.19.2-cp310-cp310-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (3.1 kB)
+Collecting six (from comet_ml)
+  Downloading six-1.16.0-py2.py3-none-any.whl (11 kB)
+Collecting urllib3>=1.21.1 (from comet_ml)
+  Downloading urllib3-2.1.0-py3-none-any.whl.metadata (6.4 kB)
+Collecting websocket-client<1.4.0,>=0.55.0 (from comet_ml)
+  Downloading websocket_client-1.3.3-py3-none-any.whl (54 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 54.3/54.3 kB 8.0 MB/s eta 0:00:00
+Collecting wrapt>=1.11.2 (from comet_ml)
+  Downloading wrapt-1.16.0-cp310-cp310-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (6.6 kB)
+Collecting wurlitzer>=1.0.2 (from comet_ml)
+  Downloading wurlitzer-3.0.3-py3-none-any.whl (7.3 kB)
+Collecting everett<3.2.0,>=1.0.1 (from everett[ini]<3.2.0,>=1.0.1; python_version > "3.5"->comet_ml)
+  Downloading everett-3.1.0-py2.py3-none-any.whl (35 kB)
+Collecting dulwich!=0.20.33,>=0.20.6 (from comet_ml)
+  Downloading dulwich-0.21.6-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (4.3 kB)
+Collecting rich>=13.3.2 (from comet_ml)
+  Downloading rich-13.7.0-py3-none-any.whl.metadata (18 kB)
+Collecting configobj (from everett[ini]<3.2.0,>=1.0.1; python_version > "3.5"->comet_ml)
+  Downloading configobj-5.0.8-py2.py3-none-any.whl (36 kB)
+Collecting attrs>=22.2.0 (from jsonschema!=3.1.0,>=2.6.0->comet_ml)
+  Downloading attrs-23.1.0-py3-none-any.whl (61 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 61.2/61.2 kB 10.0 MB/s eta 0:00:00
+Collecting jsonschema-specifications>=2023.03.6 (from jsonschema!=3.1.0,>=2.6.0->comet_ml)
+  Downloading jsonschema_specifications-2023.11.1-py3-none-any.whl.metadata (2.8 kB)
+Collecting referencing>=0.28.4 (from jsonschema!=3.1.0,>=2.6.0->comet_ml)
+  Downloading referencing-0.31.0-py3-none-any.whl.metadata (2.6 kB)
+Collecting rpds-py>=0.7.1 (from jsonschema!=3.1.0,>=2.6.0->comet_ml)
+  Downloading rpds_py-0.12.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (3.7 kB)
+Collecting charset-normalizer<4,>=2 (from requests>=2.18.4->comet_ml)
+  Downloading charset_normalizer-3.3.2-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (33 kB)
+Collecting idna<4,>=2.5 (from requests>=2.18.4->comet_ml)
+  Downloading idna-3.4-py3-none-any.whl (61 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 61.5/61.5 kB 9.2 MB/s eta 0:00:00
+Collecting certifi>=2017.4.17 (from requests>=2.18.4->comet_ml)
+  Downloading certifi-2023.7.22-py3-none-any.whl.metadata (2.2 kB)
+Collecting markdown-it-py>=2.2.0 (from rich>=13.3.2->comet_ml)
+  Downloading markdown_it_py-3.0.0-py3-none-any.whl.metadata (6.9 kB)
+Collecting pygments<3.0.0,>=2.13.0 (from rich>=13.3.2->comet_ml)
+  Downloading Pygments-2.16.1-py3-none-any.whl.metadata (2.5 kB)
+Collecting mdurl~=0.1 (from markdown-it-py>=2.2.0->rich>=13.3.2->comet_ml)
+  Downloading mdurl-0.1.2-py3-none-any.whl (10.0 kB)
+Downloading comet_ml-3.35.3-py3-none-any.whl (586 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 586.4/586.4 kB 42.3 MB/s eta 0:00:00
+Downloading dulwich-0.21.6-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (512 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 512.2/512.2 kB 42.7 MB/s eta 0:00:00
+Downloading jsonschema-4.19.2-py3-none-any.whl (83 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 83.6/83.6 kB 14.0 MB/s eta 0:00:00
+Downloading psutil-5.9.6-cp36-abi3-manylinux_2_12_x86_64.manylinux2010_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl (283 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 283.6/283.6 kB 44.0 MB/s eta 0:00:00
+Downloading requests-2.31.0-py3-none-any.whl (62 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 62.6/62.6 kB 8.0 MB/s eta 0:00:00
+Downloading rich-13.7.0-py3-none-any.whl (240 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 240.6/240.6 kB 31.4 MB/s eta 0:00:00
+Downloading sentry_sdk-1.35.0-py2.py3-none-any.whl (248 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 248.6/248.6 kB 27.9 MB/s eta 0:00:00
+Downloading urllib3-2.1.0-py3-none-any.whl (104 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 104.6/104.6 kB 15.6 MB/s eta 0:00:00
+Downloading wrapt-1.16.0-cp310-cp310-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl (80 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 80.3/80.3 kB 11.7 MB/s eta 0:00:00
+Downloading simplejson-3.19.2-cp310-cp310-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl (137 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 137.9/137.9 kB 17.3 MB/s eta 0:00:00
+Downloading certifi-2023.7.22-py3-none-any.whl (158 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 158.3/158.3 kB 25.8 MB/s eta 0:00:00
+Downloading charset_normalizer-3.3.2-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (142 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 142.1/142.1 kB 20.4 MB/s eta 0:00:00
+Downloading jsonschema_specifications-2023.11.1-py3-none-any.whl (17 kB)
+Downloading markdown_it_py-3.0.0-py3-none-any.whl (87 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 87.5/87.5 kB 14.5 MB/s eta 0:00:00
+Downloading Pygments-2.16.1-py3-none-any.whl (1.2 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.2/1.2 MB 57.4 MB/s eta 0:00:00
+Downloading referencing-0.31.0-py3-none-any.whl (25 kB)
+Downloading rpds_py-0.12.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (1.2 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.2/1.2 MB 65.4 MB/s eta 0:00:00
+Installing collected packages: everett, wurlitzer, wrapt, websocket-client, urllib3, six, simplejson, semantic-version, rpds-py, python-box, pygments, psutil, mdurl, idna, charset-normalizer, certifi, attrs, sentry-sdk, requests, referencing, markdown-it-py, dulwich, configobj, rich, requests-toolbelt, jsonschema-specifications, jsonschema, comet_ml
+Successfully installed attrs-23.1.0 certifi-2023.7.22 charset-normalizer-3.3.2 comet_ml-3.35.3 configobj-5.0.8 dulwich-0.21.6 everett-3.1.0 idna-3.4 jsonschema-4.19.2 jsonschema-specifications-2023.11.1 markdown-it-py-3.0.0 mdurl-0.1.2 psutil-5.9.6 pygments-2.16.1 python-box-6.1.0 referencing-0.31.0 requests-2.31.0 requests-toolbelt-1.0.0 rich-13.7.0 rpds-py-0.12.0 semantic-version-2.10.0 sentry-sdk-1.35.0 simplejson-3.19.2 six-1.16.0 urllib3-2.1.0 websocket-client-1.3.3 wrapt-1.16.0 wurlitzer-3.0.3
+Obtaining file:///home/xzcaplas/PHAS0097_RLASSEN/salt
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Checking if build backend supports build_editable: started
+  Checking if build backend supports build_editable: finished with status 'done'
+  Getting requirements to build editable: started
+  Getting requirements to build editable: finished with status 'done'
+  Installing backend dependencies: started
+  Installing backend dependencies: finished with status 'done'
+  Preparing editable metadata (pyproject.toml): started
+  Preparing editable metadata (pyproject.toml): finished with status 'done'
+Collecting pytest==7.2.2 (from salt==0.3)
+  Downloading pytest-7.2.2-py3-none-any.whl (317 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 317.2/317.2 kB 15.1 MB/s eta 0:00:00
+Collecting pytest-cov==4.0.0 (from salt==0.3)
+  Downloading pytest_cov-4.0.0-py3-none-any.whl (21 kB)
+Collecting h5py==3.8.0 (from salt==0.3)
+  Downloading h5py-3.8.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (4.6 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 4.6/4.6 MB 77.3 MB/s eta 0:00:00
+Collecting numpy==1.24.2 (from salt==0.3)
+  Downloading numpy-1.24.2-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (17.3 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 17.3/17.3 MB 69.6 MB/s eta 0:00:00
+Collecting torch==2.0.1 (from salt==0.3)
+  Downloading torch-2.0.1-cp310-cp310-manylinux1_x86_64.whl (619.9 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 619.9/619.9 MB 4.8 MB/s eta 0:00:00
+Collecting lightning==2.0.2 (from salt==0.3)
+  Downloading lightning-2.0.2-py3-none-any.whl (1.8 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.8/1.8 MB 68.6 MB/s eta 0:00:00
+Collecting jsonargparse==4.19.0 (from jsonargparse[all]==4.19.0->salt==0.3)
+  Downloading jsonargparse-4.19.0-py3-none-any.whl (180 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 180.7/180.7 kB 27.9 MB/s eta 0:00:00
+Collecting torchmetrics==0.11.4 (from salt==0.3)
+  Downloading torchmetrics-0.11.4-py3-none-any.whl (519 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 519.2/519.2 kB 40.2 MB/s eta 0:00:00
+Collecting comet-ml==3.33.5 (from salt==0.3)
+  Downloading comet_ml-3.33.5-py3-none-any.whl.metadata (3.4 kB)
+Collecting tqdm==4.65.0 (from salt==0.3)
+  Downloading tqdm-4.65.0-py3-none-any.whl (77 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 77.1/77.1 kB 12.4 MB/s eta 0:00:00
+Collecting rich==13.4.2 (from salt==0.3)
+  Downloading rich-13.4.2-py3-none-any.whl.metadata (18 kB)
+Collecting pre-commit==3.2.1 (from salt==0.3)
+  Downloading pre_commit-3.2.1-py2.py3-none-any.whl (202 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 202.7/202.7 kB 27.0 MB/s eta 0:00:00
+Collecting onnx==1.13.0 (from salt==0.3)
+  Downloading onnx-1.13.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (13.5 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 13.5/13.5 MB 37.0 MB/s eta 0:00:00
+Collecting onnxruntime==1.13.1 (from salt==0.3)
+  Downloading onnxruntime-1.13.1-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (5.2 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 5.2/5.2 MB 13.5 MB/s eta 0:00:00
+Collecting atlas-ftag-tools==0.1.11 (from salt==0.3)
+  Downloading atlas_ftag_tools-0.1.11-py3-none-any.whl.metadata (4.6 kB)
+Collecting PyYAML>=5.1 (from atlas-ftag-tools==0.1.11->salt==0.3)
+  Downloading PyYAML-6.0.1-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (2.1 kB)
+Requirement already satisfied: jsonschema!=3.1.0,>=2.6.0 in ./conda/envs/salt/lib/python3.10/site-packages (from comet-ml==3.33.5->salt==0.3) (4.19.2)
+Requirement already satisfied: psutil>=5.6.3 in ./conda/envs/salt/lib/python3.10/site-packages (from comet-ml==3.33.5->salt==0.3) (5.9.6)
+Requirement already satisfied: python-box<7.0.0 in ./conda/envs/salt/lib/python3.10/site-packages (from comet-ml==3.33.5->salt==0.3) (6.1.0)
+Requirement already satisfied: requests-toolbelt>=0.8.0 in ./conda/envs/salt/lib/python3.10/site-packages (from comet-ml==3.33.5->salt==0.3) (1.0.0)
+Requirement already satisfied: requests>=2.18.4 in ./conda/envs/salt/lib/python3.10/site-packages (from comet-ml==3.33.5->salt==0.3) (2.31.0)
+Requirement already satisfied: semantic-version>=2.8.0 in ./conda/envs/salt/lib/python3.10/site-packages (from comet-ml==3.33.5->salt==0.3) (2.10.0)
+Requirement already satisfied: sentry-sdk>=1.1.0 in ./conda/envs/salt/lib/python3.10/site-packages (from comet-ml==3.33.5->salt==0.3) (1.35.0)
+Requirement already satisfied: simplejson in ./conda/envs/salt/lib/python3.10/site-packages (from comet-ml==3.33.5->salt==0.3) (3.19.2)
+Requirement already satisfied: six in ./conda/envs/salt/lib/python3.10/site-packages (from comet-ml==3.33.5->salt==0.3) (1.16.0)
+Requirement already satisfied: urllib3>=1.21.1 in ./conda/envs/salt/lib/python3.10/site-packages (from comet-ml==3.33.5->salt==0.3) (2.1.0)
+Requirement already satisfied: websocket-client<1.4.0,>=0.55.0 in ./conda/envs/salt/lib/python3.10/site-packages (from comet-ml==3.33.5->salt==0.3) (1.3.3)
+Requirement already satisfied: wrapt>=1.11.2 in ./conda/envs/salt/lib/python3.10/site-packages (from comet-ml==3.33.5->salt==0.3) (1.16.0)
+Requirement already satisfied: wurlitzer>=1.0.2 in ./conda/envs/salt/lib/python3.10/site-packages (from comet-ml==3.33.5->salt==0.3) (3.0.3)
+Requirement already satisfied: everett<3.2.0,>=1.0.1 in ./conda/envs/salt/lib/python3.10/site-packages (from everett[ini]<3.2.0,>=1.0.1; python_version > "3.5"->comet-ml==3.33.5->salt==0.3) (3.1.0)
+Requirement already satisfied: dulwich!=0.20.33,>=0.20.6 in ./conda/envs/salt/lib/python3.10/site-packages (from comet-ml==3.33.5->salt==0.3) (0.21.6)
+Collecting docstring-parser>=0.15 (from jsonargparse[all]==4.19.0->salt==0.3)
+  Downloading docstring_parser-0.15-py3-none-any.whl (36 kB)
+Collecting typeshed-client>=2.1.0 (from jsonargparse[all]==4.19.0->salt==0.3)
+  Downloading typeshed_client-2.4.0-py3-none-any.whl.metadata (7.2 kB)
+Collecting fsspec>=0.8.4 (from jsonargparse[all]==4.19.0->salt==0.3)
+  Downloading fsspec-2023.10.0-py3-none-any.whl.metadata (6.8 kB)
+Collecting argcomplete>=2.0.0 (from jsonargparse[all]==4.19.0->salt==0.3)
+  Downloading argcomplete-3.1.6-py3-none-any.whl.metadata (16 kB)
+Collecting ruyaml>=0.20.0 (from jsonargparse[all]==4.19.0->salt==0.3)
+  Downloading ruyaml-0.91.0-py3-none-any.whl (108 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 108.9/108.9 kB 17.0 MB/s eta 0:00:00
+Collecting omegaconf>=2.1.1 (from jsonargparse[all]==4.19.0->salt==0.3)
+  Downloading omegaconf-2.3.0-py3-none-any.whl (79 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 79.5/79.5 kB 11.7 MB/s eta 0:00:00
+Collecting reconplogger>=4.4.0 (from jsonargparse[all]==4.19.0->salt==0.3)
+  Downloading reconplogger-4.12.0-py3-none-any.whl (15 kB)
+Requirement already satisfied: jsonnet>=0.13.0 in ./conda/envs/salt/lib/python3.10/site-packages (from jsonargparse[all]==4.19.0->salt==0.3) (0.17.0)
+Collecting Jinja2<5.0 (from lightning==2.0.2->salt==0.3)
+  Downloading Jinja2-3.1.2-py3-none-any.whl (133 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 133.1/133.1 kB 20.8 MB/s eta 0:00:00
+Collecting arrow<3.0,>=1.2.0 (from lightning==2.0.2->salt==0.3)
+  Downloading arrow-1.3.0-py3-none-any.whl.metadata (7.5 kB)
+Collecting beautifulsoup4<6.0,>=4.8.0 (from lightning==2.0.2->salt==0.3)
+  Downloading beautifulsoup4-4.12.2-py3-none-any.whl (142 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 143.0/143.0 kB 22.6 MB/s eta 0:00:00
+Collecting click<10.0 (from lightning==2.0.2->salt==0.3)
+  Downloading click-8.1.7-py3-none-any.whl.metadata (3.0 kB)
+Collecting croniter<1.4.0,>=1.3.0 (from lightning==2.0.2->salt==0.3)
+  Downloading croniter-1.3.15-py2.py3-none-any.whl.metadata (23 kB)
+Collecting dateutils<2.0 (from lightning==2.0.2->salt==0.3)
+  Downloading dateutils-0.6.12-py2.py3-none-any.whl (5.7 kB)
+Collecting deepdiff<8.0,>=5.7.0 (from lightning==2.0.2->salt==0.3)
+  Downloading deepdiff-6.7.1-py3-none-any.whl.metadata (6.1 kB)
+Collecting fastapi<0.89.0,>=0.69.0 (from lightning==2.0.2->salt==0.3)
+  Downloading fastapi-0.88.0-py3-none-any.whl (55 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 55.5/55.5 kB 9.6 MB/s eta 0:00:00
+Collecting inquirer<5.0,>=2.10.0 (from lightning==2.0.2->salt==0.3)
+  Downloading inquirer-3.1.3-py3-none-any.whl (18 kB)
+Collecting lightning-cloud>=0.5.34 (from lightning==2.0.2->salt==0.3)
+  Downloading lightning_cloud-0.5.54-py3-none-any.whl.metadata (933 bytes)
+Collecting lightning-utilities<2.0,>=0.7.0 (from lightning==2.0.2->salt==0.3)
+  Downloading lightning_utilities-0.9.0-py3-none-any.whl.metadata (4.6 kB)
+Collecting packaging (from lightning==2.0.2->salt==0.3)
+  Downloading packaging-23.2-py3-none-any.whl.metadata (3.2 kB)
+Collecting pydantic<4.0,>=1.7.4 (from lightning==2.0.2->salt==0.3)
+  Downloading pydantic-2.5.1-py3-none-any.whl.metadata (64 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 64.1/64.1 kB 11.7 MB/s eta 0:00:00
+Collecting starlette (from lightning==2.0.2->salt==0.3)
+  Downloading starlette-0.32.0.post1-py3-none-any.whl.metadata (5.8 kB)
+Collecting starsessions<2.0,>=1.2.1 (from lightning==2.0.2->salt==0.3)
+  Downloading starsessions-1.3.0-py3-none-any.whl (10 kB)
+Collecting traitlets<7.0,>=5.3.0 (from lightning==2.0.2->salt==0.3)
+  Downloading traitlets-5.13.0-py3-none-any.whl.metadata (10 kB)
+Collecting typing-extensions<6.0,>=4.0.0 (from lightning==2.0.2->salt==0.3)
+  Downloading typing_extensions-4.8.0-py3-none-any.whl.metadata (3.0 kB)
+Collecting uvicorn<2.0 (from lightning==2.0.2->salt==0.3)
+  Downloading uvicorn-0.24.0.post1-py3-none-any.whl.metadata (6.4 kB)
+Collecting websockets<12.0 (from lightning==2.0.2->salt==0.3)
+  Downloading websockets-11.0.3-cp310-cp310-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl (129 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 129.9/129.9 kB 21.3 MB/s eta 0:00:00
+Collecting pytorch-lightning (from lightning==2.0.2->salt==0.3)
+  Downloading pytorch_lightning-2.1.2-py3-none-any.whl.metadata (21 kB)
+Collecting protobuf<4,>=3.20.2 (from onnx==1.13.0->salt==0.3)
+  Downloading protobuf-3.20.3-cp310-cp310-manylinux_2_12_x86_64.manylinux2010_x86_64.whl (1.1 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.1/1.1 MB 53.1 MB/s eta 0:00:00
+Collecting coloredlogs (from onnxruntime==1.13.1->salt==0.3)
+  Downloading coloredlogs-15.0.1-py2.py3-none-any.whl (46 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 46.0/46.0 kB 6.9 MB/s eta 0:00:00
+Collecting flatbuffers (from onnxruntime==1.13.1->salt==0.3)
+  Downloading flatbuffers-23.5.26-py2.py3-none-any.whl.metadata (850 bytes)
+Collecting sympy (from onnxruntime==1.13.1->salt==0.3)
+  Downloading sympy-1.12-py3-none-any.whl (5.7 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 5.7/5.7 MB 75.4 MB/s eta 0:00:00
+Collecting cfgv>=2.0.0 (from pre-commit==3.2.1->salt==0.3)
+  Downloading cfgv-3.4.0-py2.py3-none-any.whl.metadata (8.5 kB)
+Collecting identify>=1.0.0 (from pre-commit==3.2.1->salt==0.3)
+  Downloading identify-2.5.31-py2.py3-none-any.whl.metadata (4.4 kB)
+Collecting nodeenv>=0.11.1 (from pre-commit==3.2.1->salt==0.3)
+  Downloading nodeenv-1.8.0-py2.py3-none-any.whl.metadata (21 kB)
+Collecting virtualenv>=20.10.0 (from pre-commit==3.2.1->salt==0.3)
+  Downloading virtualenv-20.24.6-py3-none-any.whl.metadata (4.5 kB)
+Requirement already satisfied: attrs>=19.2.0 in ./conda/envs/salt/lib/python3.10/site-packages (from pytest==7.2.2->salt==0.3) (23.1.0)
+Collecting iniconfig (from pytest==7.2.2->salt==0.3)
+  Downloading iniconfig-2.0.0-py3-none-any.whl (5.9 kB)
+Collecting pluggy<2.0,>=0.12 (from pytest==7.2.2->salt==0.3)
+  Downloading pluggy-1.3.0-py3-none-any.whl.metadata (4.3 kB)
+Collecting exceptiongroup>=1.0.0rc8 (from pytest==7.2.2->salt==0.3)
+  Downloading exceptiongroup-1.1.3-py3-none-any.whl.metadata (6.1 kB)
+Collecting tomli>=1.0.0 (from pytest==7.2.2->salt==0.3)
+  Downloading tomli-2.0.1-py3-none-any.whl (12 kB)
+Collecting coverage>=5.2.1 (from coverage[toml]>=5.2.1->pytest-cov==4.0.0->salt==0.3)
+  Downloading coverage-7.3.2-cp310-cp310-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (8.1 kB)
+Requirement already satisfied: markdown-it-py>=2.2.0 in ./conda/envs/salt/lib/python3.10/site-packages (from rich==13.4.2->salt==0.3) (3.0.0)
+Requirement already satisfied: pygments<3.0.0,>=2.13.0 in ./conda/envs/salt/lib/python3.10/site-packages (from rich==13.4.2->salt==0.3) (2.16.1)
+Collecting filelock (from torch==2.0.1->salt==0.3)
+  Downloading filelock-3.13.1-py3-none-any.whl.metadata (2.8 kB)
+Collecting networkx (from torch==2.0.1->salt==0.3)
+  Downloading networkx-3.2.1-py3-none-any.whl.metadata (5.2 kB)
+Collecting nvidia-cuda-nvrtc-cu11==11.7.99 (from torch==2.0.1->salt==0.3)
+  Downloading nvidia_cuda_nvrtc_cu11-11.7.99-2-py3-none-manylinux1_x86_64.whl (21.0 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 21.0/21.0 MB 63.3 MB/s eta 0:00:00
+Collecting nvidia-cuda-runtime-cu11==11.7.99 (from torch==2.0.1->salt==0.3)
+  Downloading nvidia_cuda_runtime_cu11-11.7.99-py3-none-manylinux1_x86_64.whl (849 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 849.3/849.3 kB 55.1 MB/s eta 0:00:00
+Collecting nvidia-cuda-cupti-cu11==11.7.101 (from torch==2.0.1->salt==0.3)
+  Downloading nvidia_cuda_cupti_cu11-11.7.101-py3-none-manylinux1_x86_64.whl (11.8 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 11.8/11.8 MB 77.5 MB/s eta 0:00:00
+Collecting nvidia-cudnn-cu11==8.5.0.96 (from torch==2.0.1->salt==0.3)
+  Downloading nvidia_cudnn_cu11-8.5.0.96-2-py3-none-manylinux1_x86_64.whl (557.1 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 557.1/557.1 MB 9.1 MB/s eta 0:00:00
+Collecting nvidia-cublas-cu11==11.10.3.66 (from torch==2.0.1->salt==0.3)
+  Downloading nvidia_cublas_cu11-11.10.3.66-py3-none-manylinux1_x86_64.whl (317.1 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 317.1/317.1 MB 14.8 MB/s eta 0:00:00
+Collecting nvidia-cufft-cu11==10.9.0.58 (from torch==2.0.1->salt==0.3)
+  Downloading nvidia_cufft_cu11-10.9.0.58-py3-none-manylinux1_x86_64.whl (168.4 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 168.4/168.4 MB 18.5 MB/s eta 0:00:00
+Collecting nvidia-curand-cu11==10.2.10.91 (from torch==2.0.1->salt==0.3)
+  Downloading nvidia_curand_cu11-10.2.10.91-py3-none-manylinux1_x86_64.whl (54.6 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 54.6/54.6 MB 47.2 MB/s eta 0:00:00
+Collecting nvidia-cusolver-cu11==11.4.0.1 (from torch==2.0.1->salt==0.3)
+  Downloading nvidia_cusolver_cu11-11.4.0.1-2-py3-none-manylinux1_x86_64.whl (102.6 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 102.6/102.6 MB 32.3 MB/s eta 0:00:00
+Collecting nvidia-cusparse-cu11==11.7.4.91 (from torch==2.0.1->salt==0.3)
+  Downloading nvidia_cusparse_cu11-11.7.4.91-py3-none-manylinux1_x86_64.whl (173.2 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 173.2/173.2 MB 23.4 MB/s eta 0:00:00
+Collecting nvidia-nccl-cu11==2.14.3 (from torch==2.0.1->salt==0.3)
+  Downloading nvidia_nccl_cu11-2.14.3-py3-none-manylinux1_x86_64.whl (177.1 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 177.1/177.1 MB 23.7 MB/s eta 0:00:00
+Collecting nvidia-nvtx-cu11==11.7.91 (from torch==2.0.1->salt==0.3)
+  Downloading nvidia_nvtx_cu11-11.7.91-py3-none-manylinux1_x86_64.whl (98 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 98.6/98.6 kB 10.5 MB/s eta 0:00:00
+Collecting triton==2.0.0 (from torch==2.0.1->salt==0.3)
+  Downloading triton-2.0.0-1-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (63.3 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 63.3/63.3 MB 45.0 MB/s eta 0:00:00
+Requirement already satisfied: setuptools in ./conda/envs/salt/lib/python3.10/site-packages (from nvidia-cublas-cu11==11.10.3.66->torch==2.0.1->salt==0.3) (68.2.2)
+Requirement already satisfied: wheel in ./conda/envs/salt/lib/python3.10/site-packages (from nvidia-cublas-cu11==11.10.3.66->torch==2.0.1->salt==0.3) (0.41.3)
+Collecting cmake (from triton==2.0.0->torch==2.0.1->salt==0.3)
+  Downloading cmake-3.27.7-py2.py3-none-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (6.7 kB)
+Collecting lit (from triton==2.0.0->torch==2.0.1->salt==0.3)
+  Downloading lit-17.0.5.tar.gz (153 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 153.0/153.0 kB 29.0 MB/s eta 0:00:00
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'done'
+  Installing backend dependencies: started
+  Installing backend dependencies: finished with status 'done'
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Collecting python-dateutil>=2.7.0 (from arrow<3.0,>=1.2.0->lightning==2.0.2->salt==0.3)
+  Downloading python_dateutil-2.8.2-py2.py3-none-any.whl (247 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 247.7/247.7 kB 28.8 MB/s eta 0:00:00
+Collecting types-python-dateutil>=2.8.10 (from arrow<3.0,>=1.2.0->lightning==2.0.2->salt==0.3)
+  Downloading types_python_dateutil-2.8.19.14-py3-none-any.whl.metadata (1.6 kB)
+Collecting soupsieve>1.2 (from beautifulsoup4<6.0,>=4.8.0->lightning==2.0.2->salt==0.3)
+  Downloading soupsieve-2.5-py3-none-any.whl.metadata (4.7 kB)
+Collecting pytz (from dateutils<2.0->lightning==2.0.2->salt==0.3)
+  Downloading pytz-2023.3.post1-py2.py3-none-any.whl.metadata (22 kB)
+Collecting ordered-set<4.2.0,>=4.0.2 (from deepdiff<8.0,>=5.7.0->lightning==2.0.2->salt==0.3)
+  Downloading ordered_set-4.1.0-py3-none-any.whl (7.6 kB)
+Requirement already satisfied: configobj in ./conda/envs/salt/lib/python3.10/site-packages (from everett[ini]<3.2.0,>=1.0.1; python_version > "3.5"->comet-ml==3.33.5->salt==0.3) (5.0.8)
+Collecting pydantic<4.0,>=1.7.4 (from lightning==2.0.2->salt==0.3)
+  Downloading pydantic-1.10.13-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (149 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 149.6/149.6 kB 25.6 MB/s eta 0:00:00
+Collecting starlette (from lightning==2.0.2->salt==0.3)
+  Downloading starlette-0.22.0-py3-none-any.whl (64 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 64.3/64.3 kB 11.3 MB/s eta 0:00:00
+Collecting anyio<5,>=3.4.0 (from starlette->lightning==2.0.2->salt==0.3)
+  Downloading anyio-4.0.0-py3-none-any.whl.metadata (4.5 kB)
+Collecting aiohttp!=4.0.0a0,!=4.0.0a1 (from fsspec[http]<2025.0,>2021.06.0->lightning==2.0.2->salt==0.3)
+  Downloading aiohttp-3.8.6-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (7.7 kB)
+Collecting blessed>=1.19.0 (from inquirer<5.0,>=2.10.0->lightning==2.0.2->salt==0.3)
+  Downloading blessed-1.20.0-py2.py3-none-any.whl (58 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 58.4/58.4 kB 9.3 MB/s eta 0:00:00
+Collecting python-editor>=1.0.4 (from inquirer<5.0,>=2.10.0->lightning==2.0.2->salt==0.3)
+  Downloading python_editor-1.0.4-py3-none-any.whl (4.9 kB)
+Collecting readchar>=3.0.6 (from inquirer<5.0,>=2.10.0->lightning==2.0.2->salt==0.3)
+  Downloading readchar-4.0.5-py3-none-any.whl (8.5 kB)
+Collecting MarkupSafe>=2.0 (from Jinja2<5.0->lightning==2.0.2->salt==0.3)
+  Downloading MarkupSafe-2.1.3-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (3.0 kB)
+Requirement already satisfied: jsonschema-specifications>=2023.03.6 in ./conda/envs/salt/lib/python3.10/site-packages (from jsonschema!=3.1.0,>=2.6.0->comet-ml==3.33.5->salt==0.3) (2023.11.1)
+Requirement already satisfied: referencing>=0.28.4 in ./conda/envs/salt/lib/python3.10/site-packages (from jsonschema!=3.1.0,>=2.6.0->comet-ml==3.33.5->salt==0.3) (0.31.0)
+Requirement already satisfied: rpds-py>=0.7.1 in ./conda/envs/salt/lib/python3.10/site-packages (from jsonschema!=3.1.0,>=2.6.0->comet-ml==3.33.5->salt==0.3) (0.12.0)
+Collecting pyjwt (from lightning-cloud>=0.5.34->lightning==2.0.2->salt==0.3)
+  Downloading PyJWT-2.8.0-py3-none-any.whl.metadata (4.2 kB)
+Collecting python-multipart (from lightning-cloud>=0.5.34->lightning==2.0.2->salt==0.3)
+  Downloading python_multipart-0.0.6-py3-none-any.whl (45 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 45.7/45.7 kB 7.1 MB/s eta 0:00:00
+Collecting boto3 (from lightning-cloud>=0.5.34->lightning==2.0.2->salt==0.3)
+  Downloading boto3-1.29.1-py3-none-any.whl.metadata (6.7 kB)
+Requirement already satisfied: mdurl~=0.1 in ./conda/envs/salt/lib/python3.10/site-packages (from markdown-it-py>=2.2.0->rich==13.4.2->salt==0.3) (0.1.2)
+Collecting antlr4-python3-runtime==4.9.* (from omegaconf>=2.1.1->jsonargparse[all]==4.19.0->salt==0.3)
+  Downloading antlr4-python3-runtime-4.9.3.tar.gz (117 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 117.0/117.0 kB 18.3 MB/s eta 0:00:00
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Collecting logmatic-python>=0.1.7 (from reconplogger>=4.4.0->jsonargparse[all]==4.19.0->salt==0.3)
+  Downloading logmatic-python-0.1.7.tar.gz (3.3 kB)
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Requirement already satisfied: charset-normalizer<4,>=2 in ./conda/envs/salt/lib/python3.10/site-packages (from requests>=2.18.4->comet-ml==3.33.5->salt==0.3) (3.3.2)
+Requirement already satisfied: idna<4,>=2.5 in ./conda/envs/salt/lib/python3.10/site-packages (from requests>=2.18.4->comet-ml==3.33.5->salt==0.3) (3.4)
+Requirement already satisfied: certifi>=2017.4.17 in ./conda/envs/salt/lib/python3.10/site-packages (from requests>=2.18.4->comet-ml==3.33.5->salt==0.3) (2023.7.22)
+Collecting distro>=1.3.0 (from ruyaml>=0.20.0->jsonargparse[all]==4.19.0->salt==0.3)
+  Downloading distro-1.8.0-py3-none-any.whl (20 kB)
+Collecting itsdangerous<3.0.0,>=2.0.1 (from starsessions<2.0,>=1.2.1->lightning==2.0.2->salt==0.3)
+  Downloading itsdangerous-2.1.2-py3-none-any.whl (15 kB)
+Collecting importlib-resources>=1.4.0 (from typeshed-client>=2.1.0->jsonargparse[all]==4.19.0->salt==0.3)
+  Downloading importlib_resources-6.1.1-py3-none-any.whl.metadata (4.1 kB)
+Collecting h11>=0.8 (from uvicorn<2.0->lightning==2.0.2->salt==0.3)
+  Downloading h11-0.14.0-py3-none-any.whl (58 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 58.3/58.3 kB 8.7 MB/s eta 0:00:00
+Collecting distlib<1,>=0.3.7 (from virtualenv>=20.10.0->pre-commit==3.2.1->salt==0.3)
+  Downloading distlib-0.3.7-py2.py3-none-any.whl.metadata (5.1 kB)
+Collecting platformdirs<4,>=3.9.1 (from virtualenv>=20.10.0->pre-commit==3.2.1->salt==0.3)
+  Downloading platformdirs-3.11.0-py3-none-any.whl.metadata (11 kB)
+Collecting humanfriendly>=9.1 (from coloredlogs->onnxruntime==1.13.1->salt==0.3)
+  Downloading humanfriendly-10.0-py2.py3-none-any.whl (86 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 86.8/86.8 kB 13.5 MB/s eta 0:00:00
+Collecting mpmath>=0.19 (from sympy->onnxruntime==1.13.1->salt==0.3)
+  Downloading mpmath-1.3.0-py3-none-any.whl (536 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 536.2/536.2 kB 49.1 MB/s eta 0:00:00
+Collecting multidict<7.0,>=4.5 (from aiohttp!=4.0.0a0,!=4.0.0a1->fsspec[http]<2025.0,>2021.06.0->lightning==2.0.2->salt==0.3)
+  Downloading multidict-6.0.4-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (114 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 114.5/114.5 kB 18.2 MB/s eta 0:00:00
+Collecting async-timeout<5.0,>=4.0.0a3 (from aiohttp!=4.0.0a0,!=4.0.0a1->fsspec[http]<2025.0,>2021.06.0->lightning==2.0.2->salt==0.3)
+  Downloading async_timeout-4.0.3-py3-none-any.whl.metadata (4.2 kB)
+Collecting yarl<2.0,>=1.0 (from aiohttp!=4.0.0a0,!=4.0.0a1->fsspec[http]<2025.0,>2021.06.0->lightning==2.0.2->salt==0.3)
+  Downloading yarl-1.9.2-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (268 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 268.8/268.8 kB 26.7 MB/s eta 0:00:00
+Collecting frozenlist>=1.1.1 (from aiohttp!=4.0.0a0,!=4.0.0a1->fsspec[http]<2025.0,>2021.06.0->lightning==2.0.2->salt==0.3)
+  Downloading frozenlist-1.4.0-cp310-cp310-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (5.2 kB)
+Collecting aiosignal>=1.1.2 (from aiohttp!=4.0.0a0,!=4.0.0a1->fsspec[http]<2025.0,>2021.06.0->lightning==2.0.2->salt==0.3)
+  Downloading aiosignal-1.3.1-py3-none-any.whl (7.6 kB)
+Collecting sniffio>=1.1 (from anyio<5,>=3.4.0->starlette->lightning==2.0.2->salt==0.3)
+  Downloading sniffio-1.3.0-py3-none-any.whl (10 kB)
+Collecting wcwidth>=0.1.4 (from blessed>=1.19.0->inquirer<5.0,>=2.10.0->lightning==2.0.2->salt==0.3)
+  Downloading wcwidth-0.2.10-py2.py3-none-any.whl.metadata (14 kB)
+Collecting python-json-logger (from logmatic-python>=0.1.7->reconplogger>=4.4.0->jsonargparse[all]==4.19.0->salt==0.3)
+  Downloading python_json_logger-2.0.7-py3-none-any.whl (8.1 kB)
+Collecting botocore<1.33.0,>=1.32.1 (from boto3->lightning-cloud>=0.5.34->lightning==2.0.2->salt==0.3)
+  Downloading botocore-1.32.1-py3-none-any.whl.metadata (6.1 kB)
+Collecting jmespath<2.0.0,>=0.7.1 (from boto3->lightning-cloud>=0.5.34->lightning==2.0.2->salt==0.3)
+  Downloading jmespath-1.0.1-py3-none-any.whl (20 kB)
+Collecting s3transfer<0.8.0,>=0.7.0 (from boto3->lightning-cloud>=0.5.34->lightning==2.0.2->salt==0.3)
+  Downloading s3transfer-0.7.0-py3-none-any.whl.metadata (1.8 kB)
+Collecting urllib3>=1.21.1 (from comet-ml==3.33.5->salt==0.3)
+  Downloading urllib3-2.0.7-py3-none-any.whl.metadata (6.6 kB)
+Downloading atlas_ftag_tools-0.1.11-py3-none-any.whl (22 kB)
+Downloading comet_ml-3.33.5-py3-none-any.whl (549 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 549.1/549.1 kB 35.7 MB/s eta 0:00:00
+Downloading rich-13.4.2-py3-none-any.whl (239 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 239.4/239.4 kB 37.6 MB/s eta 0:00:00
+Downloading argcomplete-3.1.6-py3-none-any.whl (41 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 41.7/41.7 kB 7.7 MB/s eta 0:00:00
+Downloading arrow-1.3.0-py3-none-any.whl (66 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 66.4/66.4 kB 14.5 MB/s eta 0:00:00
+Downloading cfgv-3.4.0-py2.py3-none-any.whl (7.2 kB)
+Downloading click-8.1.7-py3-none-any.whl (97 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 97.9/97.9 kB 19.4 MB/s eta 0:00:00
+Downloading coverage-7.3.2-cp310-cp310-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl (227 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 227.5/227.5 kB 36.5 MB/s eta 0:00:00
+Downloading croniter-1.3.15-py2.py3-none-any.whl (19 kB)
+Downloading deepdiff-6.7.1-py3-none-any.whl (76 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 76.6/76.6 kB 11.6 MB/s eta 0:00:00
+Downloading exceptiongroup-1.1.3-py3-none-any.whl (14 kB)
+Downloading fsspec-2023.10.0-py3-none-any.whl (166 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 166.4/166.4 kB 27.5 MB/s eta 0:00:00
+Downloading identify-2.5.31-py2.py3-none-any.whl (98 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 98.9/98.9 kB 16.2 MB/s eta 0:00:00
+Downloading lightning_cloud-0.5.54-py3-none-any.whl (845 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 845.2/845.2 kB 58.0 MB/s eta 0:00:00
+Downloading lightning_utilities-0.9.0-py3-none-any.whl (23 kB)
+Downloading nodeenv-1.8.0-py2.py3-none-any.whl (22 kB)
+Downloading packaging-23.2-py3-none-any.whl (53 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 53.0/53.0 kB 9.1 MB/s eta 0:00:00
+Downloading pluggy-1.3.0-py3-none-any.whl (18 kB)
+Downloading pydantic-1.10.13-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (3.1 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.1/3.1 MB 77.2 MB/s eta 0:00:00
+Downloading PyYAML-6.0.1-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (705 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 705.5/705.5 kB 46.2 MB/s eta 0:00:00
+Downloading traitlets-5.13.0-py3-none-any.whl (84 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 85.0/85.0 kB 14.4 MB/s eta 0:00:00
+Downloading typeshed_client-2.4.0-py3-none-any.whl (594 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 594.2/594.2 kB 44.9 MB/s eta 0:00:00
+Downloading typing_extensions-4.8.0-py3-none-any.whl (31 kB)
+Downloading uvicorn-0.24.0.post1-py3-none-any.whl (59 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 59.7/59.7 kB 9.5 MB/s eta 0:00:00
+Downloading virtualenv-20.24.6-py3-none-any.whl (3.8 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.8/3.8 MB 76.0 MB/s eta 0:00:00
+Downloading filelock-3.13.1-py3-none-any.whl (11 kB)
+Downloading flatbuffers-23.5.26-py2.py3-none-any.whl (26 kB)
+Downloading networkx-3.2.1-py3-none-any.whl (1.6 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.6/1.6 MB 67.7 MB/s eta 0:00:00
+Downloading pytorch_lightning-2.1.2-py3-none-any.whl (776 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 776.9/776.9 kB 51.4 MB/s eta 0:00:00
+Downloading aiohttp-3.8.6-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (1.0 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.0/1.0 MB 58.2 MB/s eta 0:00:00
+Downloading anyio-4.0.0-py3-none-any.whl (83 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 83.1/83.1 kB 14.7 MB/s eta 0:00:00
+Downloading distlib-0.3.7-py2.py3-none-any.whl (468 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 468.9/468.9 kB 47.8 MB/s eta 0:00:00
+Downloading importlib_resources-6.1.1-py3-none-any.whl (33 kB)
+Downloading MarkupSafe-2.1.3-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (25 kB)
+Downloading platformdirs-3.11.0-py3-none-any.whl (17 kB)
+Downloading soupsieve-2.5-py3-none-any.whl (36 kB)
+Downloading types_python_dateutil-2.8.19.14-py3-none-any.whl (9.4 kB)
+Downloading boto3-1.29.1-py3-none-any.whl (135 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 135.8/135.8 kB 24.1 MB/s eta 0:00:00
+Downloading cmake-3.27.7-py2.py3-none-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (26.0 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 26.0/26.0 MB 70.5 MB/s eta 0:00:00
+Downloading PyJWT-2.8.0-py3-none-any.whl (22 kB)
+Downloading pytz-2023.3.post1-py2.py3-none-any.whl (502 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 502.5/502.5 kB 50.5 MB/s eta 0:00:00
+Downloading async_timeout-4.0.3-py3-none-any.whl (5.7 kB)
+Downloading botocore-1.32.1-py3-none-any.whl (11.4 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 11.4/11.4 MB 83.5 MB/s eta 0:00:00
+Downloading urllib3-2.0.7-py3-none-any.whl (124 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 124.2/124.2 kB 18.9 MB/s eta 0:00:00
+Downloading frozenlist-1.4.0-cp310-cp310-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl (225 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 225.7/225.7 kB 33.0 MB/s eta 0:00:00
+Downloading s3transfer-0.7.0-py3-none-any.whl (79 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 79.8/79.8 kB 12.2 MB/s eta 0:00:00
+Downloading wcwidth-0.2.10-py2.py3-none-any.whl (105 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 105.2/105.2 kB 18.5 MB/s eta 0:00:00
+Building wheels for collected packages: salt, antlr4-python3-runtime, logmatic-python, lit
+  Building editable for salt (pyproject.toml): started
+  Building editable for salt (pyproject.toml): finished with status 'done'
+  Created wheel for salt: filename=salt-0.3-0.editable-py3-none-any.whl size=3000 sha256=8381ed0ea7cfb6f60732de742144c55f2f4158c6e1be674726ad504f5378175e
+  Stored in directory: /tmp/pip-ephem-wheel-cache-7ps_3uqk/wheels/e5/6c/0e/e1256ec4cd88d4d07533d699bb4a3d5449ebb9d9019e9cb72c
+  Building wheel for antlr4-python3-runtime (setup.py): started
+  Building wheel for antlr4-python3-runtime (setup.py): finished with status 'done'
+  Created wheel for antlr4-python3-runtime: filename=antlr4_python3_runtime-4.9.3-py3-none-any.whl size=144555 sha256=26464a5a0d392b3073fb99430e8a2afbe47e58b8779090cef8fc9805d06d26ca
+  Stored in directory: /home/xzcaplas/.cache/pip/wheels/12/93/dd/1f6a127edc45659556564c5730f6d4e300888f4bca2d4c5a88
+  Building wheel for logmatic-python (setup.py): started
+  Building wheel for logmatic-python (setup.py): finished with status 'done'
+  Created wheel for logmatic-python: filename=logmatic_python-0.1.7-py3-none-any.whl size=3714 sha256=70e5b6a89cfdbb0e9e9b097ad4fd290dcec2c8a5a626d3a5f228564662a078db
+  Stored in directory: /home/xzcaplas/.cache/pip/wheels/1e/85/bf/498ac430bd883bffbbac3eb44e62c49faa0a1dfb87c6452c63
+  Building wheel for lit (pyproject.toml): started
+  Building wheel for lit (pyproject.toml): finished with status 'done'
+  Created wheel for lit: filename=lit-17.0.5-py3-none-any.whl size=93256 sha256=bc8e286935970da3cfd8cf1b80973cef166228086487c649a91720705fe975f8
+  Stored in directory: /home/xzcaplas/.cache/pip/wheels/1c/87/8e/5a42c0d4be23362b68bbff33b17f3c35a3df44f1cd2f5a24b4
+Successfully built salt antlr4-python3-runtime logmatic-python lit
+Installing collected packages: wcwidth, types-python-dateutil, pytz, python-editor, mpmath, lit, flatbuffers, distlib, cmake, antlr4-python3-runtime, websockets, urllib3, typing-extensions, traitlets, tqdm, tomli, sympy, soupsieve, sniffio, readchar, PyYAML, python-multipart, python-json-logger, python-dateutil, pyjwt, protobuf, pluggy, platformdirs, packaging, ordered-set, nvidia-nvtx-cu11, nvidia-nccl-cu11, nvidia-cusparse-cu11, nvidia-curand-cu11, nvidia-cufft-cu11, nvidia-cuda-runtime-cu11, nvidia-cuda-nvrtc-cu11, nvidia-cuda-cupti-cu11, nvidia-cublas-cu11, numpy, nodeenv, networkx, multidict, MarkupSafe, jmespath, itsdangerous, iniconfig, importlib-resources, identify, humanfriendly, h11, fsspec, frozenlist, filelock, exceptiongroup, docstring-parser, distro, coverage, click, cfgv, blessed, async-timeout, argcomplete, yarl, virtualenv, uvicorn, typeshed-client, ruyaml, rich, pytest, pydantic, onnx, omegaconf, nvidia-cusolver-cu11, nvidia-cudnn-cu11, logmatic-python, lightning-utilities, jsonargparse, Jinja2, inquirer, h5py, deepdiff, dateutils, croniter, coloredlogs, botocore, beautifulsoup4, arrow, anyio, aiosignal, starlette, s3transfer, reconplogger, pytest-cov, pre-commit, onnxruntime, atlas-ftag-tools, aiohttp, starsessions, fastapi, comet-ml, boto3, lightning-cloud, triton, torch, torchmetrics, pytorch-lightning, lightning, salt
+  Attempting uninstall: urllib3
+    Found existing installation: urllib3 2.1.0
+    Uninstalling urllib3-2.1.0:
+      Successfully uninstalled urllib3-2.1.0
+  Attempting uninstall: rich
+    Found existing installation: rich 13.7.0
+    Uninstalling rich-13.7.0:
+      Successfully uninstalled rich-13.7.0
+  Attempting uninstall: comet-ml
+    Found existing installation: comet-ml 3.35.3
+    Uninstalling comet-ml-3.35.3:
+      Successfully uninstalled comet-ml-3.35.3
+Successfully installed Jinja2-3.1.2 MarkupSafe-2.1.3 PyYAML-6.0.1 aiohttp-3.8.6 aiosignal-1.3.1 antlr4-python3-runtime-4.9.3 anyio-4.0.0 argcomplete-3.1.6 arrow-1.3.0 async-timeout-4.0.3 atlas-ftag-tools-0.1.11 beautifulsoup4-4.12.2 blessed-1.20.0 boto3-1.29.1 botocore-1.32.1 cfgv-3.4.0 click-8.1.7 cmake-3.27.7 coloredlogs-15.0.1 comet-ml-3.33.5 coverage-7.3.2 croniter-1.3.15 dateutils-0.6.12 deepdiff-6.7.1 distlib-0.3.7 distro-1.8.0 docstring-parser-0.15 exceptiongroup-1.1.3 fastapi-0.88.0 filelock-3.13.1 flatbuffers-23.5.26 frozenlist-1.4.0 fsspec-2023.10.0 h11-0.14.0 h5py-3.8.0 humanfriendly-10.0 identify-2.5.31 importlib-resources-6.1.1 iniconfig-2.0.0 inquirer-3.1.3 itsdangerous-2.1.2 jmespath-1.0.1 jsonargparse-4.19.0 lightning-2.0.2 lightning-cloud-0.5.54 lightning-utilities-0.9.0 lit-17.0.5 logmatic-python-0.1.7 mpmath-1.3.0 multidict-6.0.4 networkx-3.2.1 nodeenv-1.8.0 numpy-1.24.2 nvidia-cublas-cu11-11.10.3.66 nvidia-cuda-cupti-cu11-11.7.101 nvidia-cuda-nvrtc-cu11-11.7.99 nvidia-cuda-runtime-cu11-11.7.99 nvidia-cudnn-cu11-8.5.0.96 nvidia-cufft-cu11-10.9.0.58 nvidia-curand-cu11-10.2.10.91 nvidia-cusolver-cu11-11.4.0.1 nvidia-cusparse-cu11-11.7.4.91 nvidia-nccl-cu11-2.14.3 nvidia-nvtx-cu11-11.7.91 omegaconf-2.3.0 onnx-1.13.0 onnxruntime-1.13.1 ordered-set-4.1.0 packaging-23.2 platformdirs-3.11.0 pluggy-1.3.0 pre-commit-3.2.1 protobuf-3.20.3 pydantic-1.10.13 pyjwt-2.8.0 pytest-7.2.2 pytest-cov-4.0.0 python-dateutil-2.8.2 python-editor-1.0.4 python-json-logger-2.0.7 python-multipart-0.0.6 pytorch-lightning-2.1.2 pytz-2023.3.post1 readchar-4.0.5 reconplogger-4.12.0 rich-13.4.2 ruyaml-0.91.0 s3transfer-0.7.0 salt-0.3 sniffio-1.3.0 soupsieve-2.5 starlette-0.22.0 starsessions-1.3.0 sympy-1.12 tomli-2.0.1 torch-2.0.1 torchmetrics-0.11.4 tqdm-4.65.0 traitlets-5.13.0 triton-2.0.0 types-python-dateutil-2.8.19.14 typeshed-client-2.4.0 typing-extensions-4.8.0 urllib3-2.0.7 uvicorn-0.24.0.post1 virtualenv-20.24.6 wcwidth-0.2.10 websockets-11.0.3 yarl-1.9.2
+Done.

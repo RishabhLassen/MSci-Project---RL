@@ -1,0 +1,18 @@
+/var/spool/slurmd/job13826/slurm_script: line 23: SBATCH: command not found
+/var/spool/slurmd/job13826/slurm_script: line 25: SBATCH: command not found
+Running on  compute-0-1.local
+Moved dir, now in:
+/home/xzcaplas/PHAS0097_RLASSEN/salt/salt
+
+CUDA_VISIBLE_DEVICES:
+
+CUDA_VISIBLE_DEVICES:
+
+/var/spool/slurmd/job13826/slurm_script: line 86: nvidia-smi: command not found
+Ntasks
+
+Not a conda environment: /home/xzcaplas/PHAS0097_RLASSEN/salt/salt/conda/envs/salt
+/var/spool/slurmd/job13826/slurm_script: line 94: setup/install.sh: No such file or directory
+Running training script...
+Batchsize: 2000
+/var/spool/slurmd/job13826/slurm_script: line 112: salt: command not found
